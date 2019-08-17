@@ -11,13 +11,16 @@
 		9197DB042307461A00E25F19 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB022307461A00E25F19 /* Interface.storyboard */; };
 		9197DB062307461E00E25F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB052307461E00E25F19 /* Assets.xcassets */; };
 		9197DB0D2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9197DB0C2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9197DB122307461E00E25F19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB112307461E00E25F19 /* ContentView.swift */; };
+		9197DB122307461E00E25F19 /* ApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB112307461E00E25F19 /* ApplicationView.swift */; };
 		9197DB142307461E00E25F19 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB132307461E00E25F19 /* HostingController.swift */; };
 		9197DB162307461E00E25F19 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB152307461E00E25F19 /* ExtensionDelegate.swift */; };
 		9197DB182307461F00E25F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB172307461F00E25F19 /* Assets.xcassets */; };
 		9197DB1B2307461F00E25F19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB1A2307461F00E25F19 /* Preview Assets.xcassets */; };
 		9197DB2C2307475D00E25F19 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */; };
 		91A0266B23077A0900E76477 /* View+Convertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0266A23077A0900E76477 /* View+Convertion.swift */; };
+		91F253E4230829B5002230D6 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E3230829B5002230D6 /* AuthenticationView.swift */; };
+		91F253E6230829C3002230D6 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E5230829C3002230D6 /* UserProfileView.swift */; };
+		91F253E8230829D0002230D6 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E7230829D0002230D6 /* MyProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +72,7 @@
 		9197DB052307461E00E25F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9197DB072307461E00E25F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9197DB0C2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoordinatorCombined WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9197DB112307461E00E25F19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9197DB112307461E00E25F19 /* ApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationView.swift; sourceTree = "<group>"; };
 		9197DB132307461E00E25F19 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		9197DB152307461E00E25F19 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		9197DB172307461F00E25F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +80,9 @@
 		9197DB1C2307461F00E25F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		91A0266A23077A0900E76477 /* View+Convertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Convertion.swift"; sourceTree = "<group>"; };
+		91F253E3230829B5002230D6 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		91F253E5230829C3002230D6 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		91F253E7230829D0002230D6 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +151,10 @@
 			children = (
 				9197DB132307461E00E25F19 /* HostingController.swift */,
 				9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */,
-				9197DB112307461E00E25F19 /* ContentView.swift */,
+				9197DB112307461E00E25F19 /* ApplicationView.swift */,
+				91F253E3230829B5002230D6 /* AuthenticationView.swift */,
+				91F253E7230829D0002230D6 /* MyProfileView.swift */,
+				91F253E5230829C3002230D6 /* UserProfileView.swift */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -278,9 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F253E8230829D0002230D6 /* MyProfileView.swift in Sources */,
+				91F253E6230829C3002230D6 /* UserProfileView.swift in Sources */,
 				9197DB142307461E00E25F19 /* HostingController.swift in Sources */,
 				91A0266B23077A0900E76477 /* View+Convertion.swift in Sources */,
-				9197DB122307461E00E25F19 /* ContentView.swift in Sources */,
+				91F253E4230829B5002230D6 /* AuthenticationView.swift in Sources */,
+				9197DB122307461E00E25F19 /* ApplicationView.swift in Sources */,
 				9197DB162307461E00E25F19 /* ExtensionDelegate.swift in Sources */,
 				9197DB2C2307475D00E25F19 /* ApplicationCoordinator.swift in Sources */,
 			);
