@@ -55,4 +55,12 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
         
         return navigationLink
     }
+    
+    func logout() {
+        self.stateCase = .login
+    }
+    
+    func login() {
+        self.stateCase = .authenticated
+    }
 }

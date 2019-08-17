@@ -35,7 +35,7 @@ struct MyProfileView: View {
                 
                 Divider()
                 
-                Button(action: { self.coordinator.stateCase = .login }) {
+                Button(action: { self.coordinator.logout() }) {
                     Text("Logout")
                 }
                 .background(Color.clear)
@@ -65,7 +65,7 @@ struct AuthenticationView: View {
         VStack {
             Text("Authentication")
             
-            Button(action: { self.coordinator.stateCase = .authenticated }) {
+            Button(action: { self.coordinator.login() }) {
                 Text("Login")
             }
         }

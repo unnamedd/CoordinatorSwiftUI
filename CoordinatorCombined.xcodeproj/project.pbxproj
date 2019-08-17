@@ -122,11 +122,9 @@
 		9197DB102307461E00E25F19 /* CoordinatorCombined WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */,
 				9197DB172307461F00E25F19 /* Assets.xcassets */,
-				9197DB112307461E00E25F19 /* ContentView.swift */,
 				9197DB152307461E00E25F19 /* ExtensionDelegate.swift */,
-				9197DB132307461E00E25F19 /* HostingController.swift */,
+				91B0387B2308198C0051667F /* Flow */,
 				9197DB1C2307461F00E25F19 /* Info.plist */,
 				9197DB192307461F00E25F19 /* Preview Content */,
 				91A0266A23077A0900E76477 /* View+Convertion.swift */,
@@ -140,6 +138,16 @@
 				9197DB1A2307461F00E25F19 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91B0387B2308198C0051667F /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				9197DB132307461E00E25F19 /* HostingController.swift */,
+				9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */,
+				9197DB112307461E00E25F19 /* ContentView.swift */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
