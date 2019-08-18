@@ -7,8 +7,8 @@ enum StateCase {
 }
 
 typealias People = [Person]
-struct Person: Identifiable {
-    let id = UUID()
+struct Person {
+    let identifier = UUID()
     let name: String
     let age: Int
 }

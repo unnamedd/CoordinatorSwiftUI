@@ -10,7 +10,7 @@ struct MyProfileView: View {
                 
                 Divider()
                 
-                ForEach(coordinator.people) { person in
+                ForEach(coordinator.people, id: \.identifier) { person in
                     self.coordinator.selectPerson(person) {
                         Text(person.name)
                     }
