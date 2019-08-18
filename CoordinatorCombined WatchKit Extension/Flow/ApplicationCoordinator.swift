@@ -43,10 +43,14 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     
     func start() -> AnyView {
         guard stateCase == .authenticated else {
-            return AuthenticationView(coordinator: self).any
+            return AuthenticationView()
+                .environmentObject(self)
+                .any
         }
         
-        return MyProfileView(coordinator: self).any
+        return MyProfileView()
+            .environmentObject(self)
+            .any
     }
     
     func selectPerson<Label>(_ person: Person, @ViewBuilder viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label: View {

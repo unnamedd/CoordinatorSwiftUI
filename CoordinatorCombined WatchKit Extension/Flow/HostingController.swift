@@ -2,10 +2,12 @@ import WatchKit
 import Foundation
 import SwiftUI
 
-final class HostingController: WKHostingController<ApplicationView> {
+final class HostingController: WKHostingController<AnyView> {
     var coordinator: ApplicationCoordinator = ApplicationCoordinator()
     
-    override var body: ApplicationView {
-        ApplicationView(coordinator: coordinator)
+    override var body: AnyView {
+        return ApplicationView()
+            .environmentObject(coordinator)
+            .any
     }
 }

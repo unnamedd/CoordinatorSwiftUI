@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MyProfileView: View {
-    @ObservedObject var coordinator: ApplicationCoordinator
+    @EnvironmentObject var coordinator: ApplicationCoordinator
     
     var body: some View {
         ScrollView {

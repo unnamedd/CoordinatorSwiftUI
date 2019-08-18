@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ApplicationView: View {
-    @ObservedObject var coordinator: ApplicationCoordinator
+    @EnvironmentObject var coordinator: ApplicationCoordinator
     
     var body: some View {
         coordinator.start()
@@ -11,7 +11,7 @@ struct ApplicationView: View {
 #if DEBUG
 struct ApplicationView_Previews: PreviewProvider {
     static var previews: some View {
-        ApplicationView(coordinator: ApplicationCoordinator())
+        ApplicationView().environmentObject(ApplicationCoordinator())
     }
 }
 #endif
