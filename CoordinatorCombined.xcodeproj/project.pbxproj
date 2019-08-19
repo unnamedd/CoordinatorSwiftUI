@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912B3C26230B38C700BD0FBB /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B3C25230B38C700BD0FBB /* PersonRowView.swift */; };
 		9197DAFE2307461A00E25F19 /* CoordinatorCombined WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9197DAFD2307461A00E25F19 /* CoordinatorCombined WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9197DB042307461A00E25F19 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB022307461A00E25F19 /* Interface.storyboard */; };
 		9197DB062307461E00E25F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB052307461E00E25F19 /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		912B3C25230B38C700BD0FBB /* PersonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
 		9197DAF92307461A00E25F19 /* CoordinatorCombined.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorCombined.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9197DAFD2307461A00E25F19 /* CoordinatorCombined WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoordinatorCombined WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9197DB032307461A00E25F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				9197DB112307461E00E25F19 /* ApplicationView.swift */,
 				91F253E3230829B5002230D6 /* AuthenticationView.swift */,
 				91F253E7230829D0002230D6 /* MyProfileView.swift */,
+				912B3C25230B38C700BD0FBB /* PersonRowView.swift */,
 				91F253E5230829C3002230D6 /* UserProfileView.swift */,
 			);
 			path = Flow;
@@ -294,6 +297,7 @@
 				91F253E4230829B5002230D6 /* AuthenticationView.swift in Sources */,
 				9197DB122307461E00E25F19 /* ApplicationView.swift in Sources */,
 				9197DB162307461E00E25F19 /* ExtensionDelegate.swift in Sources */,
+				912B3C26230B38C700BD0FBB /* PersonRowView.swift in Sources */,
 				9197DB2C2307475D00E25F19 /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

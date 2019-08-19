@@ -11,7 +11,8 @@ struct ApplicationView: View {
 #if DEBUG
 struct ApplicationView_Previews: PreviewProvider {
     static var previews: some View {
-        ApplicationView().environmentObject(ApplicationCoordinator())
+        ApplicationView()
+            .environmentObject(ApplicationCoordinator())
     }
 }
 #endif

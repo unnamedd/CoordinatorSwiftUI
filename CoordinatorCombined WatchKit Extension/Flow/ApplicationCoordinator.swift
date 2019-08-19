@@ -11,6 +11,28 @@ struct Person {
     let identifier = UUID()
     let name: String
     let age: Int
+    let biography: String
+}
+
+extension People {
+    static var makeDummy: People {
+        let data = [
+            ("Kirby Lumsden", 25, "Suspendisse sit amet ipsum et arcu iaculis sagittis."),
+            ("Petra Wiersma", 18, "Curabitur consequat ipsum porta, cursus erat sed, volutpat augue."),
+            ("Rachel Roth", 35, "Cras sed neque iaculis, tincidunt purus a, laoreet quam."),
+            ("Stephenie Schwandt", 56, "Cras egestas orci ut magna dapibus, posuere consectetur mi fermentum."),
+            ("Marielle Queener", 72, "Vestibulum sed leo congue, iaculis urna ut, accumsan lorem."),
+            ("Kelsi Mcclane", 43, "Curabitur sit amet mi ut erat porta posuere nec quis est."),
+            ("Cira Pender", 28, "Praesent sed felis eu nisl condimentum varius eget sit amet dui."),
+            ("Ingeborg Mynatt", 64, "Nullam dictum arcu et sapien vulputate, a dictum eros maximus."),
+            ("Signe Perrine", 12, "Suspendisse faucibus metus quis libero finibus, in hendrerit eros fringilla."),
+            ("Elvera Pelayo", 32, "Ut bibendum odio pretium ex lacinia, non ullamcorper nulla accumsan.")
+        ]
+        
+        let people = data.map { p in Person(name: p.0, age: p.1, biography: p.2) }
+        
+        return people
+    }
 }
 
 protocol Coordinator: AnyObject {
@@ -18,27 +40,13 @@ protocol Coordinator: AnyObject {
 }
 
 final class ApplicationCoordinator: ObservableObject, Coordinator {
-    private let peopleData = [
-        ("Kirby Lumsden", 25),
-        ("Petra Wiersma", 18),
-        ("Rachel Roth", 35),
-        ("Stephenie Schwandt", 56),
-        ("Marielle Queener", 72),
-        ("Kelsi Mcclane", 43),
-        ("Cira Pender", 28),
-        ("Ingeborg Mynatt", 64),
-        ("Signe Perrine", 12),
-        ("Elvera Pelayo", 32)
-    ]
-
-    
     @Published var stateCase: StateCase
     let people: People
     
     // MARK: - Init
     init() {
         self.stateCase = .login
-        self.people = peopleData.map { p in Person(name: p.0, age: p.1) }
+        self.people = People.makeDummy
     }
     
     func start() -> AnyView {
@@ -68,3 +76,4 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
         self.stateCase = .authenticated
     }
 }
+
