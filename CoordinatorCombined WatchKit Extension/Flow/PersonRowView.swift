@@ -9,11 +9,11 @@ struct PersonRowView: View {
                 Text(person.name)
                     .font(.subheadline)
                     .bold()
-                    .padding(.bottom, 4)
                     .lineLimit(2)
-                
+
                 Spacer()
             }
+            .padding(.vertical, 0)
             
             HStack(alignment: .top) {
                 Text("Bio:  ").bold()
@@ -22,8 +22,8 @@ struct PersonRowView: View {
                     .font(.caption)
                     .fontWeight(.thin)
             }
+            .frame(height: 80)
         }
-        .frame(height: 250)
     }
 }
 
@@ -31,7 +31,7 @@ struct PersonRowView: View {
 struct PersonRowView_Previews: PreviewProvider {
     static var previews: some View {
         let firstPerson = People.makeDummy[0]
-        let secondPerson = People.makeDummy[1]
+        let secondPerson = People.makeDummy[3]
         
         return Group {
             PersonRowView(person: firstPerson)
