@@ -5,12 +5,29 @@ struct UserProfileView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(person.name)
-            Text("Age: \(person.age)")
+            HStack {
+                Text(person.name)
+                    .font(.headline)
+                    .fontWeight(.heavy)
+                    .bold()
+                    .lineLimit(1)
+            }
+            
+            Text("Age: ")
+                .bold()
+                .foregroundColor(Color.gray)
+            +
+            Text("\(person.age)")
+                .font(.caption)
             
             Divider()
             
-            Text(person.biography)
+            Text("Bio: ")
+                .bold()
+                .foregroundColor(Color.gray)
+            +
+            Text("\(person.biography)")
+                .font(.caption)
         }
     }
 }
