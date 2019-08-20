@@ -1,11 +1,3 @@
-//
-//  ExtensionDelegate.swift
-//  CoordinatorCombined WatchKit Extension
-//
-//  Created by Thiago Holanda on 16.08.19.
-//  Copyright © 2019 eGym GmbH. All rights reserved.
-//
-
 import WatchKit
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {

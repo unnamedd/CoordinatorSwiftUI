@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoordinatorCombined.xcodeproj">
+      location = "self:/Users/unnamedd/workspace/watches/CoordinatorCombined/CoordinatorSwiftUI.xcodeproj">
    </FileRef>
 </Workspace>

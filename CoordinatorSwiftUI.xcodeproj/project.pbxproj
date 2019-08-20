@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		912B3C26230B38C700BD0FBB /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B3C25230B38C700BD0FBB /* PersonRowView.swift */; };
-		9197DAFE2307461A00E25F19 /* CoordinatorCombined WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9197DAFD2307461A00E25F19 /* CoordinatorCombined WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9197DAFE2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9197DAFD2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9197DB042307461A00E25F19 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB022307461A00E25F19 /* Interface.storyboard */; };
 		9197DB062307461E00E25F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9197DB052307461E00E25F19 /* Assets.xcassets */; };
-		9197DB0D2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9197DB0C2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9197DB0D2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9197DB0C2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9197DB122307461E00E25F19 /* ApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB112307461E00E25F19 /* ApplicationView.swift */; };
 		9197DB142307461E00E25F19 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB132307461E00E25F19 /* HostingController.swift */; };
 		9197DB162307461E00E25F19 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB152307461E00E25F19 /* ExtensionDelegate.swift */; };
@@ -48,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9197DB0D2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex in Embed App Extensions */,
+				9197DB0D2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +59,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				9197DAFE2307461A00E25F19 /* CoordinatorCombined WatchKit App.app in Embed Watch Content */,
+				9197DAFE2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,12 +68,12 @@
 
 /* Begin PBXFileReference section */
 		912B3C25230B38C700BD0FBB /* PersonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
-		9197DAF92307461A00E25F19 /* CoordinatorCombined.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorCombined.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9197DAFD2307461A00E25F19 /* CoordinatorCombined WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoordinatorCombined WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9197DAF92307461A00E25F19 /* CoordinatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9197DAFD2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoordinatorSwiftUI WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9197DB032307461A00E25F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		9197DB052307461E00E25F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9197DB072307461E00E25F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9197DB0C2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoordinatorCombined WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9197DB0C2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoordinatorSwiftUI WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9197DB112307461E00E25F19 /* ApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationView.swift; sourceTree = "<group>"; };
 		9197DB132307461E00E25F19 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		9197DB152307461E00E25F19 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 		9197DAF22307461A00E25F19 = {
 			isa = PBXGroup;
 			children = (
-				9197DB012307461A00E25F19 /* CoordinatorCombined WatchKit App */,
-				9197DB102307461E00E25F19 /* CoordinatorCombined WatchKit Extension */,
+				9197DB012307461A00E25F19 /* CoordinatorSwiftUI WatchKit App */,
+				9197DB102307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension */,
 				9197DAFA2307461A00E25F19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,24 +110,24 @@
 		9197DAFA2307461A00E25F19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9197DAF92307461A00E25F19 /* CoordinatorCombined.app */,
-				9197DAFD2307461A00E25F19 /* CoordinatorCombined WatchKit App.app */,
-				9197DB0C2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex */,
+				9197DAF92307461A00E25F19 /* CoordinatorSwiftUI.app */,
+				9197DAFD2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App.app */,
+				9197DB0C2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9197DB012307461A00E25F19 /* CoordinatorCombined WatchKit App */ = {
+		9197DB012307461A00E25F19 /* CoordinatorSwiftUI WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				9197DB022307461A00E25F19 /* Interface.storyboard */,
 				9197DB052307461E00E25F19 /* Assets.xcassets */,
 				9197DB072307461E00E25F19 /* Info.plist */,
 			);
-			path = "CoordinatorCombined WatchKit App";
+			path = "CoordinatorSwiftUI WatchKit App";
 			sourceTree = "<group>";
 		};
-		9197DB102307461E00E25F19 /* CoordinatorCombined WatchKit Extension */ = {
+		9197DB102307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				9197DB172307461F00E25F19 /* Assets.xcassets */,
@@ -137,7 +137,7 @@
 				9197DB192307461F00E25F19 /* Preview Content */,
 				91A0266A23077A0900E76477 /* View+Convertion.swift */,
 			);
-			path = "CoordinatorCombined WatchKit Extension";
+			path = "CoordinatorSwiftUI WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		9197DB192307461F00E25F19 /* Preview Content */ = {
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9197DAF82307461A00E25F19 /* CoordinatorCombined */ = {
+		9197DAF82307461A00E25F19 /* CoordinatorSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9197DB272307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorCombined" */;
+			buildConfigurationList = 9197DB272307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorSwiftUI" */;
 			buildPhases = (
 				9197DAF72307461A00E25F19 /* Resources */,
 				9197DB262307461F00E25F19 /* Embed Watch Content */,
@@ -177,14 +177,14 @@
 			dependencies = (
 				9197DB002307461A00E25F19 /* PBXTargetDependency */,
 			);
-			name = CoordinatorCombined;
+			name = CoordinatorSwiftUI;
 			productName = CoordinatorCombined;
-			productReference = 9197DAF92307461A00E25F19 /* CoordinatorCombined.app */;
+			productReference = 9197DAF92307461A00E25F19 /* CoordinatorSwiftUI.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		9197DAFC2307461A00E25F19 /* CoordinatorCombined WatchKit App */ = {
+		9197DAFC2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9197DB232307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorCombined WatchKit App" */;
+			buildConfigurationList = 9197DB232307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorSwiftUI WatchKit App" */;
 			buildPhases = (
 				9197DAFB2307461A00E25F19 /* Resources */,
 				9197DB222307461F00E25F19 /* Embed App Extensions */,
@@ -194,14 +194,14 @@
 			dependencies = (
 				9197DB0F2307461E00E25F19 /* PBXTargetDependency */,
 			);
-			name = "CoordinatorCombined WatchKit App";
+			name = "CoordinatorSwiftUI WatchKit App";
 			productName = "CoordinatorCombined WatchKit App";
-			productReference = 9197DAFD2307461A00E25F19 /* CoordinatorCombined WatchKit App.app */;
+			productReference = 9197DAFD2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		9197DB0B2307461E00E25F19 /* CoordinatorCombined WatchKit Extension */ = {
+		9197DB0B2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9197DB1F2307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorCombined WatchKit Extension" */;
+			buildConfigurationList = 9197DB1F2307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorSwiftUI WatchKit Extension" */;
 			buildPhases = (
 				9197DB082307461E00E25F19 /* Sources */,
 				9197DB092307461E00E25F19 /* Frameworks */,
@@ -211,9 +211,9 @@
 			);
 			dependencies = (
 			);
-			name = "CoordinatorCombined WatchKit Extension";
+			name = "CoordinatorSwiftUI WatchKit Extension";
 			productName = "CoordinatorCombined WatchKit Extension";
-			productReference = 9197DB0C2307461E00E25F19 /* CoordinatorCombined WatchKit Extension.appex */;
+			productReference = 9197DB0C2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = "eGym GmbH";
+				ORGANIZATIONNAME = unncodes;
 				TargetAttributes = {
 					9197DAF82307461A00E25F19 = {
 						CreatedOnToolsVersion = 11.0;
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9197DAF62307461A00E25F19 /* Build configuration list for PBXProject "CoordinatorCombined" */;
+			buildConfigurationList = 9197DAF62307461A00E25F19 /* Build configuration list for PBXProject "CoordinatorSwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9197DAF82307461A00E25F19 /* CoordinatorCombined */,
-				9197DAFC2307461A00E25F19 /* CoordinatorCombined WatchKit App */,
-				9197DB0B2307461E00E25F19 /* CoordinatorCombined WatchKit Extension */,
+				9197DAF82307461A00E25F19 /* CoordinatorSwiftUI */,
+				9197DAFC2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App */,
+				9197DB0B2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -307,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		9197DB002307461A00E25F19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9197DAFC2307461A00E25F19 /* CoordinatorCombined WatchKit App */;
+			target = 9197DAFC2307461A00E25F19 /* CoordinatorSwiftUI WatchKit App */;
 			targetProxy = 9197DAFF2307461A00E25F19 /* PBXContainerItemProxy */;
 		};
 		9197DB0F2307461E00E25F19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9197DB0B2307461E00E25F19 /* CoordinatorCombined WatchKit Extension */;
+			target = 9197DB0B2307461E00E25F19 /* CoordinatorSwiftUI WatchKit Extension */;
 			targetProxy = 9197DB0E2307461E00E25F19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,16 +446,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoordinatorCombined WatchKit Extension\"/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "CoordinatorSwiftUI\\ WatchKit\\ Extension/Preview\\ Content";
 				DEVELOPMENT_TEAM = 56DQ8B5T2R;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "CoordinatorCombined WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "CoordinatorSwiftUI WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorCombined.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorSwiftUI.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -470,16 +470,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoordinatorCombined WatchKit Extension\"/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "CoordinatorSwiftUI\\ WatchKit\\ Extension/Preview\\ Content";
 				DEVELOPMENT_TEAM = 56DQ8B5T2R;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "CoordinatorCombined WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "CoordinatorSwiftUI WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorCombined.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorSwiftUI.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -496,9 +496,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56DQ8B5T2R;
-				IBSC_MODULE = CoordinatorCombined_WatchKit_Extension;
-				INFOPLIST_FILE = "CoordinatorCombined WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorCombined.watchkitapp;
+				IBSC_MODULE = CoordinatorSwiftUI_WatchKit_Extension;
+				INFOPLIST_FILE = "CoordinatorSwiftUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorSwiftUI.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -515,9 +515,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56DQ8B5T2R;
-				IBSC_MODULE = CoordinatorCombined_WatchKit_Extension;
-				INFOPLIST_FILE = "CoordinatorCombined WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorCombined.watchkitapp;
+				IBSC_MODULE = CoordinatorSwiftUI_WatchKit_Extension;
+				INFOPLIST_FILE = "CoordinatorSwiftUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorSwiftUI.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -534,7 +534,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56DQ8B5T2R;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorCombined;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -547,7 +547,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56DQ8B5T2R;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorCombined;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.unnamedd.CoordinatorSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -556,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9197DAF62307461A00E25F19 /* Build configuration list for PBXProject "CoordinatorCombined" */ = {
+		9197DAF62307461A00E25F19 /* Build configuration list for PBXProject "CoordinatorSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9197DB1D2307461F00E25F19 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9197DB1F2307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorCombined WatchKit Extension" */ = {
+		9197DB1F2307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorSwiftUI WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9197DB202307461F00E25F19 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9197DB232307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorCombined WatchKit App" */ = {
+		9197DB232307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorSwiftUI WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9197DB242307461F00E25F19 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9197DB272307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorCombined" */ = {
+		9197DB272307461F00E25F19 /* Build configuration list for PBXNativeTarget "CoordinatorSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9197DB282307461F00E25F19 /* Debug */,
