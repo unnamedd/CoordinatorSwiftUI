@@ -25,7 +25,7 @@ struct MyProfileView: View {
             }
         }
         .navigationBarTitle("My Profile")
-        .edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea([.leading, .bottom, .trailing])
     }
 }
 
@@ -36,7 +36,6 @@ struct MyProfileView_Previews: PreviewProvider {
             MyProfileView()
                 .environmentObject(ApplicationCoordinator())
         }
-        //.previewLayout(.fixed(width: 170, height: 1580))
     }
 }
 #endif

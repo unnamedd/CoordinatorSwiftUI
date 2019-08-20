@@ -9,7 +9,7 @@ struct PersonRowView: View {
                 Text(person.name)
                     .font(.subheadline)
                     .bold()
-                    .lineLimit(2)
+                    .lineLimit(1)
 
                 Spacer()
             }
@@ -22,8 +22,9 @@ struct PersonRowView: View {
                     .font(.caption)
                     .fontWeight(.thin)
             }
-            .frame(height: 80)
         }
+        .frame(alignment: .topLeading)
+        .frame(height: 120)
     }
 }
 
