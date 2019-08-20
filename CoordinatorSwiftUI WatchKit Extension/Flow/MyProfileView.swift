@@ -1,31 +1,24 @@
 import SwiftUI
+import UIKit
 
 struct MyProfileView: View {
     @EnvironmentObject var coordinator: ApplicationCoordinator
     
     var body: some View {
-        ScrollView {
-            VStack {
-                Text("User X")
-                
-                Divider()
-                
-                ForEach(coordinator.people, id: \.identifier) { person in
-                    self.coordinator.selectPerson(person) {
-                        PersonRowView(person: person)
-                    }
+        List {
+            ForEach(coordinator.people, id: \.identifier) { person in
+                self.coordinator.selectPerson(person) {
+                    PersonRowView(person: person)
                 }
-                
-                Divider()
-                
-                Button(action: { self.coordinator.logout() }) {
-                    Text("Logout")
-                }
-                .background(Color.clear)
             }
         }
-        .navigationBarTitle("My Profile")
+        .navigationBarTitle(Text("User X"))
         .edgesIgnoringSafeArea([.leading, .bottom, .trailing])
+        .contextMenu {
+            Button(action: { self.coordinator.logout() }) {
+                LogoutButtonView()
+            }
+        }
     }
 }
 

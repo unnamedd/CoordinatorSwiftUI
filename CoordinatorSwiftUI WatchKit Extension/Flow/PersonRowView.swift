@@ -14,7 +14,7 @@ struct PersonRowView: View {
                 Spacer()
             }
             .padding(.vertical, 0)
-            
+            Divider().frame(height: 1)
             HStack(alignment: .top) {
                 Text("Bio: ").bold()
                 +
@@ -22,21 +22,18 @@ struct PersonRowView: View {
                     .font(.caption)
                     .fontWeight(.thin)
             }
-            .frame(height: 80)
         }
-        .frame(alignment: .topLeading)
+        .padding(.vertical, 5)
     }
 }
 
 #if DEBUG
 struct PersonRowView_Previews: PreviewProvider {
     static var previews: some View {
-        let firstPerson = People.makeDummy[0]
-        let secondPerson = People.makeDummy[3]
+        let people = People.makeDummy
         
-        return Group {
-            PersonRowView(person: firstPerson)
-            PersonRowView(person: secondPerson)
+        return List(0..<5) { index in
+            PersonRowView(person: people[index])
         }
     }
 }
