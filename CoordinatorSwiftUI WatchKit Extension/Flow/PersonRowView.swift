@@ -14,7 +14,9 @@ struct PersonRowView: View {
                 Spacer()
             }
             .padding(.vertical, 0)
+            
             Divider().frame(height: 1)
+            
             HStack(alignment: .top) {
                 Text("Bio: ").bold()
                 +
