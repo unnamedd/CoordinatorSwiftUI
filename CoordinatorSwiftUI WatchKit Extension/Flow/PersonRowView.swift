@@ -16,15 +16,15 @@ struct PersonRowView: View {
             .padding(.vertical, 0)
             
             HStack(alignment: .top) {
-                Text("Bio:  ").bold()
+                Text("Bio: ").bold()
                 +
                 Text("\(person.biography)")
                     .font(.caption)
                     .fontWeight(.thin)
             }
+            .frame(height: 80)
         }
         .frame(alignment: .topLeading)
-        .frame(height: 120)
     }
 }
 
