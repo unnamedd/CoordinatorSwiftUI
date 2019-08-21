@@ -41,7 +41,7 @@ protocol Coordinator: AnyObject {
 
 final class ApplicationCoordinator: ObservableObject, Coordinator {
     @Published var stateCase: StateCase
-    let people: People
+    @Published var people: People
     
     // MARK: - Init
     init() {

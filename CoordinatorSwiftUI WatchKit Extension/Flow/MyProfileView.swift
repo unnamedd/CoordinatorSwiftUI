@@ -11,12 +11,21 @@ struct MyProfileView: View {
                     PersonRowView(person: person)
                 }
             }
+            .onDelete(perform: delete)
         }
         .navigationBarTitle(Text("User X"))
         .edgesIgnoringSafeArea([.leading, .bottom, .trailing])
         .contextMenu {
             Button(action: { self.coordinator.logout() }) {
                 LogoutButtonView()
+            }
+        }
+    }
+    
+    func delete(at offsets: IndexSet) {
+        if let first = offsets.first {
+            _ = withAnimation {
+                coordinator.people.remove(at: first)
             }
         }
     }
