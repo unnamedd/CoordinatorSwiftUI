@@ -29,7 +29,10 @@ struct PersonRowView: View {
     }
 }
 
+// MARK: - Dummy
+
 #if DEBUG
+
 struct PersonRowView_Previews: PreviewProvider {
     static var previews: some View {
         let people = People.makeDummy
@@ -39,4 +42,5 @@ struct PersonRowView_Previews: PreviewProvider {
         }
     }
 }
+
 #endif

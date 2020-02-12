@@ -32,7 +32,10 @@ struct UserProfileView: View {
     }
 }
 
+// MARK: - Dummy
+
 #if DEBUG
+
 struct UserProfileView_Previews: PreviewProvider {
     static var previews: some View {
         let firstPerson = People.makeDummy[0]
@@ -44,4 +47,5 @@ struct UserProfileView_Previews: PreviewProvider {
         }
     }
 }
+
 #endif

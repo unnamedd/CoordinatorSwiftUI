@@ -2,7 +2,7 @@ import SwiftUI
 import UIKit
 
 struct MyProfileView: View {
-    @EnvironmentObject var coordinator: ApplicationCoordinator
+    @ObservedObject var coordinator: ApplicationCoordinator
     
     var body: some View {
         List {
@@ -31,13 +31,18 @@ struct MyProfileView: View {
     }
 }
 
+// MARK: - Dummy
+
 #if DEBUG
+
 struct MyProfileView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MyProfileView()
-                .environmentObject(ApplicationCoordinator())
+            MyProfileView(
+                coordinator: ApplicationCoordinator.makeDummy()
+            )
         }
     }
 }
+
 #endif

@@ -29,7 +29,13 @@ extension People {
             ("Elvera Pelayo", 32, "Ut bibendum odio pretium ex lacinia, non ullamcorper nulla accumsan.")
         ]
         
-        let people = data.map { p in Person(name: p.0, age: p.1, biography: p.2) }
+        let people = data.map {
+            Person(
+                name: $0.0,
+                age: $0.1,
+                biography: $0.2
+            )
+        }
         
         return people
     }
@@ -51,14 +57,14 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     
     func start() -> AnyView {
         guard stateCase == .authenticated else {
-            return AuthenticationView()
-                .environmentObject(self)
-                .any
+            return AuthenticationView(
+                coordinator: self
+            ).any
         }
         
-        return MyProfileView()
-            .environmentObject(self)
-            .any
+        return MyProfileView(
+            coordinator: self
+        ).any
     }
     
     func selectPerson<Label>(_ person: Person, @ViewBuilder viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label: View {
@@ -77,3 +83,14 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     }
 }
 
+// MARK: - Dummy
+
+#if DEBUG
+
+extension ApplicationCoordinator {
+    static func makeDummy() -> ApplicationCoordinator {
+        ApplicationCoordinator()
+    }
+}
+
+#endif

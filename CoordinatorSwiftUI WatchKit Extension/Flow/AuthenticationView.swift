@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct AuthenticationView: View {
-    @EnvironmentObject var coordinator: ApplicationCoordinator
+    @ObservedObject var coordinator: ApplicationCoordinator
     
     var body: some View {
         VStack {
@@ -13,3 +13,17 @@ struct AuthenticationView: View {
         }
     }
 }
+
+// MARK: - Dummy
+
+#if DEBUG
+
+struct AuthenticationView_Previews: PreviewProvider {
+    static var previews: some View {
+        AuthenticationView(
+            coordinator: ApplicationCoordinator.makeDummy()
+        )
+    }
+}
+
+#endif
