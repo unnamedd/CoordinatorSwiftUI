@@ -1,14 +1,9 @@
-import Combine
-import SwiftUI
-
-enum StateCase {
-    case authenticated
-    case login
-}
+import Foundation
 
 typealias People = [Person]
-struct Person {
-    let identifier = UUID()
+
+struct Person: Identifiable {
+    let id = UUID()
     let name: String
     let age: Int
     let biography: String
@@ -40,57 +35,3 @@ extension People {
         return people
     }
 }
-
-protocol Coordinator: AnyObject {
-    func start() -> AnyView
-}
-
-final class ApplicationCoordinator: ObservableObject, Coordinator {
-    @Published var stateCase: StateCase
-    @Published var people: People
-    
-    // MARK: - Init
-    init() {
-        self.stateCase = .login
-        self.people = People.makeDummy
-    }
-    
-    func start() -> AnyView {
-        guard stateCase == .authenticated else {
-            return AuthenticationView(
-                coordinator: self
-            ).any
-        }
-        
-        return MyProfileView(
-            coordinator: self
-        ).any
-    }
-    
-    func selectPerson<Label>(_ person: Person, @ViewBuilder viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label: View {
-        let userProfileView = UserProfileView(person: person).any
-        let navigationLink = NavigationLink(destination: userProfileView, label: viewBuilder)
-        
-        return navigationLink
-    }
-    
-    func logout() {
-        self.stateCase = .login
-    }
-    
-    func login() {
-        self.stateCase = .authenticated
-    }
-}
-
-// MARK: - Dummy
-
-#if DEBUG
-
-extension ApplicationCoordinator {
-    static func makeDummy() -> ApplicationCoordinator {
-        ApplicationCoordinator()
-    }
-}
-
-#endif
