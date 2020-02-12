@@ -43,10 +43,6 @@ struct PeopleListView: View {
         }
     }
     
-    var emptyView: some View {
-        Text("No content")
-    }
-    
     var listView: some View {
         
         return List {
@@ -64,14 +60,6 @@ struct PeopleListView: View {
     var messageView: some View {
         Text(viewModel.state.description)
     }
-    
-//    func delete(at offsets: IndexSet) {
-//        if let first = offsets.first {
-//            _ = withAnimation {
-//                //coordinator.people.remove(at: first)
-//            }
-//        }
-//    }
 }
 
 // MARK: - Dummy
