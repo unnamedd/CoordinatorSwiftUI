@@ -1,21 +1,22 @@
 import Combine
 import SwiftUI
 
-enum StateCase {
-    case authenticated
-    case login
-}
-
 protocol Coordinator: AnyObject {
     func start() -> AnyView
 }
 
 final class ApplicationCoordinator: ObservableObject, Coordinator {
-    @Published private var stateCase: StateCase
+    enum FlowCase {
+        case authenticated
+        case login
+    }
+    
+    @Published
+    private var flowCase: FlowCase
     
     // MARK: - Init
     init() {
-        self.stateCase = .login
+        self.flowCase = .login
     }
     
     private lazy var authenticationView: AuthenticationView = {
@@ -41,7 +42,7 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     }()
     
     func start() -> AnyView {
-        guard stateCase == .authenticated else {
+        guard flowCase == .authenticated else {
             return authenticationView.any
         }
         
@@ -53,7 +54,7 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
 
 extension ApplicationCoordinator: AuthenticationViewDelegate {
     func authenticationViewDidFinish(_ view: AuthenticationView) {
-        self.stateCase = .authenticated
+        self.flowCase = .authenticated
     }
 }
 
@@ -68,7 +69,7 @@ extension ApplicationCoordinator: PeopleListViewDelegate {
     }
     
     func peopleListViewDidFinishSession(_ view: PeopleListView) {
-        self.stateCase = .login
+        self.flowCase = .login
     }
 }
 
