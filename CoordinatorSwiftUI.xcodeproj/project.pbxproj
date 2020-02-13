@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910885D223F549AD007ED5A3 /* PeopleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885D123F549AD007ED5A3 /* PeopleStore.swift */; };
+		910885D423F55493007ED5A3 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885D323F55493007ED5A3 /* UserProfileViewModel.swift */; };
+		910885D923F55E4C007ED5A3 /* Binding+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885D823F55E4C007ED5A3 /* Binding+Convenience.swift */; };
+		910885DC23F55F37007ED5A3 /* KeyPathUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885DB23F55F37007ED5A3 /* KeyPathUpdatable.swift */; };
+		910885DE23F56C2B007ED5A3 /* RefreshButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885DD23F56C2B007ED5A3 /* RefreshButtonView.swift */; };
 		912B3C26230B38C700BD0FBB /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B3C25230B38C700BD0FBB /* PersonRowView.swift */; };
 		913E216A230C8E1A00C675DC /* LogoutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E2169230C8E1A00C675DC /* LogoutButtonView.swift */; };
 		9157FDF223F47E8000E44849 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157FDF123F47E8000E44849 /* Person.swift */; };
@@ -75,6 +80,11 @@
 
 /* Begin PBXFileReference section */
 		9101B22623F494420082C227 /* PeopleListViewModel+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeopleListViewModel+State.swift"; sourceTree = "<group>"; };
+		910885D123F549AD007ED5A3 /* PeopleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleStore.swift; sourceTree = "<group>"; };
+		910885D323F55493007ED5A3 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		910885D823F55E4C007ED5A3 /* Binding+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Convenience.swift"; sourceTree = "<group>"; };
+		910885DB23F55F37007ED5A3 /* KeyPathUpdatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPathUpdatable.swift; sourceTree = "<group>"; };
+		910885DD23F56C2B007ED5A3 /* RefreshButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButtonView.swift; sourceTree = "<group>"; };
 		912B3C25230B38C700BD0FBB /* PersonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
 		913E2169230C8E1A00C675DC /* LogoutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButtonView.swift; sourceTree = "<group>"; };
 		9157FDF123F47E8000E44849 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -129,9 +139,26 @@
 			path = ExtensionDelegate;
 			sourceTree = "<group>";
 		};
+		910885D023F5499E007ED5A3 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				910885D123F549AD007ED5A3 /* PeopleStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		910885DA23F55F37007ED5A3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				910885DB23F55F37007ED5A3 /* KeyPathUpdatable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		913E2168230C8DAF00C675DC /* ContextMenu */ = {
 			isa = PBXGroup;
 			children = (
+				910885DD23F56C2B007ED5A3 /* RefreshButtonView.swift */,
 				913E2169230C8E1A00C675DC /* LogoutButtonView.swift */,
 			);
 			path = ContextMenu;
@@ -212,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				9157FE0023F491DD00E44849 /* PeopleListViewModel.swift */,
+				910885D323F55493007ED5A3 /* UserProfileViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -238,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				919BAC7823F4A28D0000A3B7 /* View+Convertion.swift */,
+				910885D823F55E4C007ED5A3 /* Binding+Convenience.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -294,13 +323,15 @@
 		91B0387B2308198C0051667F /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				918BA53223F49E27004032AE /* Extensions */,
 				913E2168230C8DAF00C675DC /* ContextMenu */,
 				9157FDF423F47EBB00E44849 /* Coordinators */,
 				9101B22823F49C0B0082C227 /* ExtensionDelegate */,
+				918BA53223F49E27004032AE /* Extensions */,
 				9157FDF623F47EE400E44849 /* LifeCycle */,
 				9157FDF323F47EB000E44849 /* Models */,
 				9157FDF723F47F0B00E44849 /* Modules */,
+				910885DA23F55F37007ED5A3 /* Protocols */,
+				910885D023F5499E007ED5A3 /* Stores */,
 			);
 			path = SourceCode;
 			sourceTree = "<group>";
@@ -438,15 +469,20 @@
 				919BAC7723F4A27D0000A3B7 /* PeopleListViewModel+State.swift in Sources */,
 				9197DB142307461E00E25F19 /* HostingController.swift in Sources */,
 				9157FDF223F47E8000E44849 /* Person.swift in Sources */,
+				910885DC23F55F37007ED5A3 /* KeyPathUpdatable.swift in Sources */,
 				91F253E4230829B5002230D6 /* AuthenticationView.swift in Sources */,
 				9197DB122307461E00E25F19 /* ApplicationView.swift in Sources */,
 				9157FDFF23F47FF900E44849 /* PeopleProvider.swift in Sources */,
 				913E216A230C8E1A00C675DC /* LogoutButtonView.swift in Sources */,
+				910885D423F55493007ED5A3 /* UserProfileViewModel.swift in Sources */,
 				919BAC7923F4A28D0000A3B7 /* View+Convertion.swift in Sources */,
 				9197DB162307461E00E25F19 /* ExtensionDelegate.swift in Sources */,
 				9157FE0123F491DD00E44849 /* PeopleListViewModel.swift in Sources */,
 				912B3C26230B38C700BD0FBB /* PersonRowView.swift in Sources */,
+				910885D923F55E4C007ED5A3 /* Binding+Convenience.swift in Sources */,
+				910885D223F549AD007ED5A3 /* PeopleStore.swift in Sources */,
 				917DA74623F4A60400047838 /* PeopleProviderFailureMock.swift in Sources */,
+				910885DE23F56C2B007ED5A3 /* RefreshButtonView.swift in Sources */,
 				9197DB2C2307475D00E25F19 /* ApplicationCoordinator.swift in Sources */,
 				917DA74423F4A4FC00047838 /* PeopleProviderSuccessMock.swift in Sources */,
 			);
