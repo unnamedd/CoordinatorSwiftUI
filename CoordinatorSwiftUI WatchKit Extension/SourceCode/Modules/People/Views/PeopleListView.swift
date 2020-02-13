@@ -6,6 +6,9 @@ protocol PeopleListViewDelegate: AnyObject {
 }
 
 struct PeopleListView: View {
+    @EnvironmentObject
+    private var peopleStore: PeopleStore
+    
     weak var delegate: PeopleListViewDelegate?
     
     @ObservedObject

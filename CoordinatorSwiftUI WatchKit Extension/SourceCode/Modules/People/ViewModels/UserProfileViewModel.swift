@@ -1,7 +1,6 @@
 import SwiftUI
 
 final class UserProfileViewModel: ObservableObject {
-    @ObservedObject
     private var peopleStore: PeopleStore
     
     @Published

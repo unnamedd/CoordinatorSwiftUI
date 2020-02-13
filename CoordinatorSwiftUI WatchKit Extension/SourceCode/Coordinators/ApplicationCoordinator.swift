@@ -14,7 +14,7 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     @Published
     private var flowCase: FlowCase
     
-    @ObservedObject
+    @Published
     private var peopleStore = PeopleStore()
     
     // MARK: - Init
@@ -51,7 +51,9 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
             return authenticationView.any
         }
         
-        return peopleListView.any
+        return peopleListView
+            .environmentObject(peopleStore)
+            .any
     }
 }
 

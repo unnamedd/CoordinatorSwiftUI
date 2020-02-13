@@ -2,8 +2,7 @@ import SwiftUI
 
 final class PeopleListViewModel: ObservableObject {
     private var provider: PeopleProviderProtocol
-    
-    @ObservedObject
+
     private var peopleStore: PeopleStore
     
     @Published
