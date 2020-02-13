@@ -16,7 +16,8 @@ final class PeopleProvider: PeopleProviderProtocol {
     func listPeople(completion: @escaping (PeopleProviderResult) -> Void) {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            completion(.success(People.makeDummy))
+            let peopleStore = PeopleStore.makeDummyFulfilled
+            completion(.success(peopleStore.people))
         }
     }
 }

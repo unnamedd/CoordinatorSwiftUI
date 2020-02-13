@@ -3,8 +3,8 @@ final class PeopleProviderSuccessMock: PeopleProviderProtocol {
         completion(
             .success(
                 [
-                    Person(name: "Simon Dach", age: 23, biography: "No biography"),
-                    Person(name: "Otto Braun", age: 64, biography: "Public man"),
+                    Person(name: "Simon Dach", age: 23, biography: "No biography", isAuthor: true),
+                    Person(name: "Otto Braun", age: 64, biography: "Public man", isAuthor: true)
                 ]
             )
         )
