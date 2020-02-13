@@ -52,7 +52,7 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
         }
         
         return peopleListView
-            .environmentObject(peopleStore)
+            .environmentObject(peopleStore) // This is a workaround to make possible rebuild PeopleListView every time PeopleStore instance is updated
             .any
     }
 }
