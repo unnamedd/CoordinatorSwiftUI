@@ -24,9 +24,7 @@ struct PeopleListView: View {
                 [.leading, .bottom, .trailing]
             )
             .contextMenu {
-                Button(action: { self.delegate?.peopleListViewDidFinishSession(self) }) {
-                    LogoutButtonView()
-                }
+                contextMenuView
             }
             .onAppear {
                 if self.viewModel.state == .initial {
@@ -46,16 +44,29 @@ struct PeopleListView: View {
     }
     
     var listView: some View {
-        
         return List {
             ForEach(self.viewModel.people) { person in
                 self.delegate?.peopleListView(self, navigationLinkViewForPerson: person) {
-                    PersonRowView(person: person)
+                    PersonRowView(
+                        person: person
+                    )
                 }
             }
             .onDelete(
                 perform: self.viewModel.deletePerson
             )
+        }
+    }
+    
+    var contextMenuView: some View {
+        VStack {
+            Button(action: { self.delegate?.peopleListViewDidFinishSession(self) }) {
+                LogoutButtonView()
+            }
+            
+            Button(action: { self.viewModel.refreshList() }) {
+                RefreshButtonView()
+            }
         }
     }
     
@@ -72,8 +83,22 @@ final class PeopleListViewDelegateMock: PeopleListViewDelegate {
     private var isFinished = false
     
     func peopleListView<Label>(_ view: PeopleListView, navigationLinkViewForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
-        let userProfileView = UserProfileView(person: person).any
-        let navigationLink = NavigationLink(destination: userProfileView, label: viewBuilder)
+
+        let peopleStore = PeopleStore.makeDummyFulfilled
+        
+        let userProfileViewModel = UserProfileViewModel(
+            person: person,
+            store: peopleStore
+        )
+        
+        let userProfileView = UserProfileView(
+            viewModel: userProfileViewModel
+        ).any
+        
+        let navigationLink = NavigationLink(
+            destination: userProfileView,
+            label: viewBuilder
+        )
         
         return navigationLink
     }
