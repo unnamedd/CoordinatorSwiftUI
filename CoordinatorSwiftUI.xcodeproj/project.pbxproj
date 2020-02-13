@@ -155,6 +155,31 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		912920BD23F5A8540017124B /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				912920BE23F5A85C0017124B /* People */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		912920BE23F5A85C0017124B /* People */ = {
+			isa = PBXGroup;
+			children = (
+				917DA74223F4A4E700047838 /* Mocks */,
+				9157FDFE23F47FF900E44849 /* PeopleProvider.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		912920BF23F5A8A20017124B /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				913E2168230C8DAF00C675DC /* ContextMenu */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
 		913E2168230C8DAF00C675DC /* ContextMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,7 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				9101B22523F494050082C227 /* Enum */,
-				9157FDFD23F47FE900E44849 /* Providers */,
 				9157FDFC23F47F3E00E44849 /* ViewModels */,
 				9157FDFB23F47F3A00E44849 /* Views */,
 			);
@@ -242,15 +266,6 @@
 				910885D323F55493007ED5A3 /* UserProfileViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		9157FDFD23F47FE900E44849 /* Providers */ = {
-			isa = PBXGroup;
-			children = (
-				917DA74223F4A4E700047838 /* Mocks */,
-				9157FDFE23F47FF900E44849 /* PeopleProvider.swift */,
-			);
-			path = Providers;
 			sourceTree = "<group>";
 		};
 		917DA74223F4A4E700047838 /* Mocks */ = {
@@ -323,7 +338,8 @@
 		91B0387B2308198C0051667F /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				913E2168230C8DAF00C675DC /* ContextMenu */,
+				912920BF23F5A8A20017124B /* CommonViews */,
+				912920BD23F5A8540017124B /* Providers */,
 				9157FDF423F47EBB00E44849 /* Coordinators */,
 				9101B22823F49C0B0082C227 /* ExtensionDelegate */,
 				918BA53223F49E27004032AE /* Extensions */,
