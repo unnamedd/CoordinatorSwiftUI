@@ -21,7 +21,7 @@ struct PeopleListView: View {
     var body: some View {
         contentView
             .navigationBarTitle(
-                Text("People List")
+                Text("Authors")
             )
             .edgesIgnoringSafeArea(
                 [.leading, .bottom, .trailing]
