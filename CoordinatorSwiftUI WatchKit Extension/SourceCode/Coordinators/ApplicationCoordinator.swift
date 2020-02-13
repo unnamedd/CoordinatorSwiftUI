@@ -14,6 +14,9 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     @Published
     private var flowCase: FlowCase
     
+    @ObservedObject
+    private var peopleStore = PeopleStore()
+    
     // MARK: - Init
     init() {
         self.flowCase = .login
@@ -28,8 +31,10 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     
     private lazy var peopleListView: PeopleListView = {
         let peopleProvider = PeopleProvider()
+        
         let peopleListViewModel = PeopleListViewModel(
-            provider: peopleProvider
+            provider: peopleProvider,
+            store: peopleStore
         )
         
         var peopleListView = PeopleListView(
@@ -62,8 +67,20 @@ extension ApplicationCoordinator: AuthenticationViewDelegate {
 
 extension ApplicationCoordinator: PeopleListViewDelegate {
     func peopleListView<Label>(_ view: PeopleListView, navigationLinkViewForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
-        let userProfileView = UserProfileView(person: person).any
-        let navigationLink = NavigationLink(destination: userProfileView, label: viewBuilder)
+        
+        let userProfileViewModel = UserProfileViewModel(
+            person: person,
+            store: peopleStore
+        )
+        
+        let userProfileView = UserProfileView(
+            viewModel: userProfileViewModel
+        ).any
+        
+        let navigationLink = NavigationLink(
+            destination: userProfileView,
+            label: viewBuilder
+        )
         
         return navigationLink
     }
