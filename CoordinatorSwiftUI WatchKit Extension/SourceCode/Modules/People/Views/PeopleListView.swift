@@ -2,7 +2,7 @@ import SwiftUI
 
 protocol PeopleListViewDelegate: AnyObject {
     func peopleListViewDidFinishSession(_ view: PeopleListView)
-    func peopleListView<Label>(_ view: PeopleListView, navigationLinkViewForPerson person: Person, @ViewBuilder viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label: View
+    func peopleListView<Label>(_ view: PeopleListView, navigationLinkForPerson person: Person, @ViewBuilder viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label: View
 }
 
 struct PeopleListView: View {
@@ -49,7 +49,7 @@ struct PeopleListView: View {
     var listView: some View {
         return List {
             ForEach(self.viewModel.people) { person in
-                self.delegate?.peopleListView(self, navigationLinkViewForPerson: person) {
+                self.delegate?.peopleListView(self, navigationLinkForPerson: person) {
                     PersonRowView(
                         person: person
                     )
@@ -85,7 +85,7 @@ struct PeopleListView: View {
 final class PeopleListViewDelegateMock: PeopleListViewDelegate {
     private var isFinished = false
     
-    func peopleListView<Label>(_ view: PeopleListView, navigationLinkViewForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
+    func peopleListView<Label>(_ view: PeopleListView, navigationLinkForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
 
         let peopleStore = PeopleStore.makeDummyFulfilled
         

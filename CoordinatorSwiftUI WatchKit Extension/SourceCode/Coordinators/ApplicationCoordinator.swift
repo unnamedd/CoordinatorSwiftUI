@@ -68,7 +68,7 @@ extension ApplicationCoordinator: AuthenticationViewDelegate {
 // MARK: - ProfileView Delegate
 
 extension ApplicationCoordinator: PeopleListViewDelegate {
-    func peopleListView<Label>(_ view: PeopleListView, navigationLinkViewForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
+    func peopleListView<Label>(_ view: PeopleListView, navigationLinkForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
         
         let userProfileViewModel = UserProfileViewModel(
             person: person,
