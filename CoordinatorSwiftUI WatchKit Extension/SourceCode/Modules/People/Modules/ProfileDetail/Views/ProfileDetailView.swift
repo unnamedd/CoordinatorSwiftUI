@@ -1,10 +1,10 @@
 import SwiftUI
 
-struct UserProfileView: View {
+struct ProfileDetailView: View {
     @ObservedObject
-    private var viewModel: UserProfileViewModel
+    private var viewModel: ProfileDetailViewModel
     
-    init(viewModel: UserProfileViewModel) {
+    init(viewModel: ProfileDetailViewModel) {
         self.viewModel = viewModel
     }
     
@@ -59,7 +59,7 @@ struct UserProfileView: View {
 
 #if DEBUG
 
-struct UserProfileView_Previews: PreviewProvider {
+struct ProfileDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let peopleStore = PeopleStore.makeDummyFulfilled
         let people = peopleStore.people
@@ -67,19 +67,19 @@ struct UserProfileView_Previews: PreviewProvider {
         let firstPerson = people[0]
         let secondPerson = people[4]
         
-        let firstViewModel = UserProfileViewModel(
+        let firstViewModel = ProfileDetailViewModel(
             person: firstPerson,
             store: peopleStore
         )
         
-        let secondViewModel = UserProfileViewModel(
+        let secondViewModel = ProfileDetailViewModel(
             person: secondPerson,
             store: peopleStore
         )
         
         return Group {
-            UserProfileView(viewModel: firstViewModel)
-            UserProfileView(viewModel: secondViewModel)
+            ProfileDetailView(viewModel: firstViewModel)
+            ProfileDetailView(viewModel: secondViewModel)
         }
     }
 }

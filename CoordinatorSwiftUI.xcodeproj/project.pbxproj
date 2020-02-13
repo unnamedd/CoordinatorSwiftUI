@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		910885D223F549AD007ED5A3 /* PeopleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885D123F549AD007ED5A3 /* PeopleStore.swift */; };
-		910885D423F55493007ED5A3 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885D323F55493007ED5A3 /* UserProfileViewModel.swift */; };
+		910885D423F55493007ED5A3 /* ProfileDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885D323F55493007ED5A3 /* ProfileDetailViewModel.swift */; };
 		910885D923F55E4C007ED5A3 /* Binding+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885D823F55E4C007ED5A3 /* Binding+Convenience.swift */; };
 		910885DC23F55F37007ED5A3 /* KeyPathUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885DB23F55F37007ED5A3 /* KeyPathUpdatable.swift */; };
 		910885DE23F56C2B007ED5A3 /* RefreshButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885DD23F56C2B007ED5A3 /* RefreshButtonView.swift */; };
@@ -32,7 +32,7 @@
 		919BAC7723F4A27D0000A3B7 /* PeopleListViewModel+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101B22623F494420082C227 /* PeopleListViewModel+State.swift */; };
 		919BAC7923F4A28D0000A3B7 /* View+Convertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BAC7823F4A28D0000A3B7 /* View+Convertion.swift */; };
 		91F253E4230829B5002230D6 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E3230829B5002230D6 /* AuthenticationView.swift */; };
-		91F253E6230829C3002230D6 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E5230829C3002230D6 /* UserProfileView.swift */; };
+		91F253E6230829C3002230D6 /* ProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E5230829C3002230D6 /* ProfileDetailView.swift */; };
 		91F253E8230829D0002230D6 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E7230829D0002230D6 /* PeopleListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +81,7 @@
 /* Begin PBXFileReference section */
 		9101B22623F494420082C227 /* PeopleListViewModel+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeopleListViewModel+State.swift"; sourceTree = "<group>"; };
 		910885D123F549AD007ED5A3 /* PeopleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleStore.swift; sourceTree = "<group>"; };
-		910885D323F55493007ED5A3 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		910885D323F55493007ED5A3 /* ProfileDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewModel.swift; sourceTree = "<group>"; };
 		910885D823F55E4C007ED5A3 /* Binding+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Convenience.swift"; sourceTree = "<group>"; };
 		910885DB23F55F37007ED5A3 /* KeyPathUpdatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPathUpdatable.swift; sourceTree = "<group>"; };
 		910885DD23F56C2B007ED5A3 /* RefreshButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButtonView.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		919BAC7823F4A28D0000A3B7 /* View+Convertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Convertion.swift"; sourceTree = "<group>"; };
 		91F253E3230829B5002230D6 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
-		91F253E5230829C3002230D6 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		91F253E5230829C3002230D6 /* ProfileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailView.swift; sourceTree = "<group>"; };
 		91F253E7230829D0002230D6 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +180,57 @@
 			path = CommonViews;
 			sourceTree = "<group>";
 		};
+		912920C023F5B5E50017124B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				912920C323F5B60D0017124B /* ProfileDetail */,
+				912920C223F5B6020017124B /* PeopleList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		912920C123F5B5FB0017124B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		912920C223F5B6020017124B /* PeopleList */ = {
+			isa = PBXGroup;
+			children = (
+				9101B22523F494050082C227 /* Enum */,
+				9157FDFC23F47F3E00E44849 /* ViewModels */,
+				9157FDFB23F47F3A00E44849 /* Views */,
+			);
+			path = PeopleList;
+			sourceTree = "<group>";
+		};
+		912920C323F5B60D0017124B /* ProfileDetail */ = {
+			isa = PBXGroup;
+			children = (
+				912920C423F5B6270017124B /* ViewModels */,
+				912920C523F5B6300017124B /* Views */,
+			);
+			path = ProfileDetail;
+			sourceTree = "<group>";
+		};
+		912920C423F5B6270017124B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				910885D323F55493007ED5A3 /* ProfileDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		912920C523F5B6300017124B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91F253E5230829C3002230D6 /* ProfileDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		913E2168230C8DAF00C675DC /* ContextMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,9 +285,8 @@
 		9157FDF923F47F1200E44849 /* People */ = {
 			isa = PBXGroup;
 			children = (
-				9101B22523F494050082C227 /* Enum */,
-				9157FDFC23F47F3E00E44849 /* ViewModels */,
-				9157FDFB23F47F3A00E44849 /* Views */,
+				912920C123F5B5FB0017124B /* Coordinators */,
+				912920C023F5B5E50017124B /* Modules */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -254,7 +304,6 @@
 			children = (
 				91F253E7230829D0002230D6 /* PeopleListView.swift */,
 				912B3C25230B38C700BD0FBB /* PersonRowView.swift */,
-				91F253E5230829C3002230D6 /* UserProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,7 +312,6 @@
 			isa = PBXGroup;
 			children = (
 				9157FE0023F491DD00E44849 /* PeopleListViewModel.swift */,
-				910885D323F55493007ED5A3 /* UserProfileViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -481,7 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91F253E8230829D0002230D6 /* PeopleListView.swift in Sources */,
-				91F253E6230829C3002230D6 /* UserProfileView.swift in Sources */,
+				91F253E6230829C3002230D6 /* ProfileDetailView.swift in Sources */,
 				919BAC7723F4A27D0000A3B7 /* PeopleListViewModel+State.swift in Sources */,
 				9197DB142307461E00E25F19 /* HostingController.swift in Sources */,
 				9157FDF223F47E8000E44849 /* Person.swift in Sources */,
@@ -490,7 +538,7 @@
 				9197DB122307461E00E25F19 /* ApplicationView.swift in Sources */,
 				9157FDFF23F47FF900E44849 /* PeopleProvider.swift in Sources */,
 				913E216A230C8E1A00C675DC /* LogoutButtonView.swift in Sources */,
-				910885D423F55493007ED5A3 /* UserProfileViewModel.swift in Sources */,
+				910885D423F55493007ED5A3 /* ProfileDetailViewModel.swift in Sources */,
 				919BAC7923F4A28D0000A3B7 /* View+Convertion.swift in Sources */,
 				9197DB162307461E00E25F19 /* ExtensionDelegate.swift in Sources */,
 				9157FE0123F491DD00E44849 /* PeopleListViewModel.swift in Sources */,

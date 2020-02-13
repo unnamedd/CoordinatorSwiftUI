@@ -89,12 +89,12 @@ final class PeopleListViewDelegateMock: PeopleListViewDelegate {
 
         let peopleStore = PeopleStore.makeDummyFulfilled
         
-        let userProfileViewModel = UserProfileViewModel(
+        let userProfileViewModel = ProfileDetailViewModel(
             person: person,
             store: peopleStore
         )
         
-        let userProfileView = UserProfileView(
+        let userProfileView = ProfileDetailView(
             viewModel: userProfileViewModel
         ).any
         

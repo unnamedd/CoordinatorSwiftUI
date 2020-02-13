@@ -1,6 +1,6 @@
 import SwiftUI
 
-final class UserProfileViewModel: ObservableObject {
+final class ProfileDetailViewModel: ObservableObject {
     private var peopleStore: PeopleStore
     
     @Published
@@ -37,12 +37,12 @@ final class UserProfileViewModel: ObservableObject {
 
 #if DEBUG
 
-extension UserProfileViewModel {
-    static var makeDummy: UserProfileViewModel {
+extension ProfileDetailViewModel {
+    static var makeDummy: ProfileDetailViewModel {
         let peopleStore = PeopleStore.makeDummyFulfilled
         let person = peopleStore.people[5]
         
-        return UserProfileViewModel(
+        return ProfileDetailViewModel(
             person: person,
             store: peopleStore
         )

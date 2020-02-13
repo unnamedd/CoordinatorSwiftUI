@@ -70,12 +70,12 @@ extension ApplicationCoordinator: AuthenticationViewDelegate {
 extension ApplicationCoordinator: PeopleListViewDelegate {
     func peopleListView<Label>(_ view: PeopleListView, navigationLinkForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
         
-        let userProfileViewModel = UserProfileViewModel(
+        let userProfileViewModel = ProfileDetailViewModel(
             person: person,
             store: peopleStore
         )
         
-        let userProfileView = UserProfileView(
+        let userProfileView = ProfileDetailView(
             viewModel: userProfileViewModel
         ).any
         
