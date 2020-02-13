@@ -6,6 +6,10 @@ struct PersonRowView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
+                if person.isAuthor {
+                    Image(systemName: "pencil.and.outline")
+                }
+                
                 Text(person.name)
                     .font(.subheadline)
                     .bold()
@@ -35,9 +39,10 @@ struct PersonRowView: View {
 
 struct PersonRowView_Previews: PreviewProvider {
     static var previews: some View {
-        let people = People.makeDummy
+        let peopleStore = PeopleStore.makeDummyFulfilled
+        let people = peopleStore.people
         
-        return List(0..<5) { index in
+        return List(0..<6) { index in
             PersonRowView(person: people[index])
         }
     }
