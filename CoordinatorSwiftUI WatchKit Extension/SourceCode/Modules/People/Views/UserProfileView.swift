@@ -1,33 +1,56 @@
 import SwiftUI
 
 struct UserProfileView: View {
-    var person: Person
+    @ObservedObject
+    private var viewModel: UserProfileViewModel
+    
+    init(viewModel: UserProfileViewModel) {
+        self.viewModel = viewModel
+    }
     
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
-                Text(person.name)
-                    .font(.headline)
-                    .fontWeight(.heavy)
+        ScrollView {
+            VStack(alignment: .leading) {
+                HStack {
+                    if self.viewModel.isAuthor {
+                        Image(systemName: "pencil.and.outline")
+                    }
+                    
+                    Text(self.viewModel.fullname)
+                        .font(.headline)
+                        .fontWeight(.heavy)
+                        .bold()
+                        .lineLimit(1)
+                }
+                
+                Text("Age: ")
                     .bold()
-                    .lineLimit(1)
+                    .foregroundColor(Color.gray)
+                    +
+                    Text("\(self.viewModel.userAge)")
+                        .font(.caption)
+                
+                Divider()
+                
+                Text("Bio: ")
+                    .bold()
+                    .foregroundColor(Color.gray)
+                    +
+                    Text("\(self.viewModel.biographyDescription)")
+                        .font(.caption)
+                
+                Divider()
+                
+                Toggle(
+                    isOn: Binding<Bool>(
+                        get: { self.viewModel.isAuthor },
+                        set: { self.viewModel.updateAuthor($0) }
+                    )
+                ) {
+                    Text("Author")
+                }
+                .padding(.trailing)
             }
-            
-            Text("Age: ")
-                .bold()
-                .foregroundColor(Color.gray)
-            +
-            Text("\(person.age)")
-                .font(.caption)
-            
-            Divider()
-            
-            Text("Bio: ")
-                .bold()
-                .foregroundColor(Color.gray)
-            +
-            Text("\(person.biography)")
-                .font(.caption)
         }
     }
 }
@@ -38,12 +61,25 @@ struct UserProfileView: View {
 
 struct UserProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        let firstPerson = People.makeDummy[0]
-        let secondPerson = People.makeDummy[1]
+        let peopleStore = PeopleStore.makeDummyFulfilled
+        let people = peopleStore.people
+        
+        let firstPerson = people[0]
+        let secondPerson = people[4]
+        
+        let firstViewModel = UserProfileViewModel(
+            person: firstPerson,
+            store: peopleStore
+        )
+        
+        let secondViewModel = UserProfileViewModel(
+            person: secondPerson,
+            store: peopleStore
+        )
         
         return Group {
-            UserProfileView(person: firstPerson)
-            UserProfileView(person: secondPerson)
+            UserProfileView(viewModel: firstViewModel)
+            UserProfileView(viewModel: secondViewModel)
         }
     }
 }
