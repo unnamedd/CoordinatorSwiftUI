@@ -29,13 +29,15 @@ struct PeopleListView: View {
                 }
             }
             .onAppear {
-                self.viewModel.loadPeople()
+                if self.viewModel.state == .initial {
+                    self.viewModel.loadPeople()
+                }
             }
     }
     
     var contentView: some View {
         switch viewModel.state {
-            case .loading, .error:
+            case .loading, .error, .initial:
                 return messageView.any
             
             case .list:

@@ -4,7 +4,7 @@ final class PeopleListViewModel: ObservableObject {
     private var provider: PeopleProviderProtocol
     
     @Published
-    private(set) var state: PeopleListViewModel.State = .loading
+    private(set) var state: PeopleListViewModel.State = .initial
 
     @Published
     private(set) var people: People = []
