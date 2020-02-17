@@ -52,6 +52,7 @@ struct ProfileDetailView: View {
                 .padding(.trailing)
             }
         }
+        .navigationBarTitle("\(viewModel.firstname)'s Detail")
     }
 }
 

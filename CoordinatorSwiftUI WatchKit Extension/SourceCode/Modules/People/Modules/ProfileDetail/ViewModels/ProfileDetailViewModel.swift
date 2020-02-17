@@ -10,6 +10,16 @@ final class ProfileDetailViewModel: ObservableObject {
         person.name
     }
     
+    var firstname: String {
+        let names = fullname.split(separator: " ")
+        
+        guard let firstname = names.first else {
+            return fullname
+        }
+        
+        return String(firstname)
+    }
+    
     var userAge: Int {
         person.age
     }
