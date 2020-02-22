@@ -15,7 +15,7 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
     private var flowCase: FlowCase
     
     @Published
-    private var peopleStore = PeopleStore()
+    private var authorsStore = AuthorsStore()
     
     // MARK: - Init
     init() {
@@ -29,21 +29,21 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
         return authenticationView
     }()
     
-    private lazy var peopleListView: PeopleListView = {
-        let peopleProvider = PeopleProvider()
+    private lazy var authorsListView: AuthorsListView = {
+        let authorsProvider = AuthorsProvider()
         
-        let peopleListViewModel = PeopleListViewModel(
-            provider: peopleProvider,
-            store: peopleStore
+        let authorsListViewModel = AuthorsListViewModel(
+            provider: authorsProvider,
+            store: authorsStore
         )
         
-        var peopleListView = PeopleListView(
-            viewModel: peopleListViewModel
+        var authorsListView = AuthorsListView(
+            viewModel: authorsListViewModel
         )
         
-        peopleListView.delegate = self
+        authorsListView.delegate = self
         
-        return peopleListView
+        return authorsListView
     }()
     
     func start() -> AnyView {
@@ -51,8 +51,8 @@ final class ApplicationCoordinator: ObservableObject, Coordinator {
             return authenticationView.any
         }
         
-        return peopleListView
-            .environmentObject(peopleStore) // This is a workaround to make possible rebuild PeopleListView every time PeopleStore instance is updated
+        return authorsListView
+            .environmentObject(authorsStore) // This is a workaround to make possible rebuild AuthorsListView every time AuthorsStore instance is updated
             .any
     }
 }
@@ -67,27 +67,27 @@ extension ApplicationCoordinator: AuthenticationViewDelegate {
 
 // MARK: - ProfileView Delegate
 
-extension ApplicationCoordinator: PeopleListViewDelegate {
-    func peopleListView<Label>(_ view: PeopleListView, navigationLinkForPerson person: Person, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
+extension ApplicationCoordinator: AuthorsListViewDelegate {
+    func authorsListView<Label>(_ view: AuthorsListView, navigationLinkForAuthor author: Author, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
         
-        let userProfileViewModel = ProfileDetailViewModel(
-            person: person,
-            store: peopleStore
+        let profileDetailViewModel = AuthorProfileDetailViewModel(
+            author: author,
+            store: authorsStore
         )
         
-        let userProfileView = ProfileDetailView(
-            viewModel: userProfileViewModel
+        let profileDetailView = AuthorProfileDetailView(
+            viewModel: profileDetailViewModel
         ).any
         
         let navigationLink = NavigationLink(
-            destination: userProfileView,
+            destination: profileDetailView,
             label: viewBuilder
         )
         
         return navigationLink
     }
     
-    func peopleListViewDidFinishSession(_ view: PeopleListView) {
+    func authorsListViewDidFinishSession(_ view: AuthorsListView) {
         self.flowCase = .login
     }
 }

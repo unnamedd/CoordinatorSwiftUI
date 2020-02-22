@@ -1,16 +1,16 @@
 import SwiftUI
 
-struct PersonRowView: View {
-    var person: Person
+struct AuthorRowView: View {
+    var author: Author
     
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                if person.isAuthor {
+                if author.isEditor {
                     Image(systemName: "pencil.and.outline")
                 }
                 
-                Text(person.name)
+                Text(author.name)
                     .font(.subheadline)
                     .bold()
                     .lineLimit(1)
@@ -24,7 +24,7 @@ struct PersonRowView: View {
             HStack(alignment: .top) {
                 Text("Bio: ").bold()
                 +
-                Text("\(person.biography)")
+                Text("\(author.biography)")
                     .font(.caption)
                     .fontWeight(.thin)
             }
@@ -37,13 +37,13 @@ struct PersonRowView: View {
 
 #if DEBUG
 
-struct PersonRowView_Previews: PreviewProvider {
+struct AuthorRowView_Previews: PreviewProvider {
     static var previews: some View {
-        let peopleStore = PeopleStore.makeDummyFulfilled
-        let people = peopleStore.people
+        let authorsStore = AuthorsStore.makeDummyFulfilled
+        let authors = authorsStore.authors
         
         return List(0..<6) { index in
-            PersonRowView(person: people[index])
+            AuthorRowView(author: authors[index])
         }
     }
 }

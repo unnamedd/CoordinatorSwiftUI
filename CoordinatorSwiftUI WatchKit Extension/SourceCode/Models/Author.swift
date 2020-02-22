@@ -1,11 +1,11 @@
 import Foundation
 
-typealias People = [Person]
+typealias Authors = [Author]
 
-struct Person: Identifiable, KeyPathUpdatable {
+struct Author: Identifiable, KeyPathUpdatable {
     let id = UUID()
     var name: String
     var age: Int
     var biography: String
-    var isAuthor: Bool
+    var isEditor: Bool
 }

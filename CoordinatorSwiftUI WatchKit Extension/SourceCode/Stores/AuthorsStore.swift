@@ -1,24 +1,24 @@
 import SwiftUI
 import Combine
 
-final class PeopleStore: ObservableObject {
+final class AuthorsStore: ObservableObject {
     @Published
-    private(set) var people: People = []
+    private(set) var authors: Authors = []
     
-    func updatePeople(_ people: People) {
-        self.people = people
+    func updateAuthors(_ authors: Authors) {
+        self.authors = authors
     }
     
-    func updatePerson(_ person: Person) {
-        guard let index = people.firstIndex(where: { $0.id == person.id }) else {
+    func updateAuthor(_ author: Author) {
+        guard let index = authors.firstIndex(where: { $0.id == author.id }) else {
             return
         }
         
-        people[index] = person
+        authors[index] = author
     }
     
-    func deletePerson(at index: Int) {
-        people.remove(at: index)
+    func deleteAuthor(at index: Int) {
+        authors.remove(at: index)
     }
 }
 
@@ -26,8 +26,8 @@ final class PeopleStore: ObservableObject {
 
 #if DEBUG
 
-extension PeopleStore {
-    static var makeDummyFulfilled: PeopleStore {
+extension AuthorsStore {
+    static var makeDummyFulfilled: AuthorsStore {
         let data = [
             ("Kirby Lumsden", 25, "Suspendisse sit amet ipsum et arcu iaculis sagittis.", true),
             ("Petra Wiersma", 18, "Curabitur consequat ipsum porta, cursus erat sed, volutpat augue.", false),
@@ -41,25 +41,25 @@ extension PeopleStore {
             ("Elvera Pelayo", 32, "Ut bibendum odio pretium ex lacinia, non ullamcorper nulla accumsan.", false)
         ]
         
-        let people = data.map {
-            Person(
+        let authors = data.map {
+            Author(
                 name: $0.0,
                 age: $0.1,
                 biography: $0.2,
-                isAuthor: $0.3
+                isEditor: $0.3
             )
         }
         
-        let peopleStore = PeopleStore()
-        peopleStore.updatePeople(people)
+        let authorsStore = AuthorsStore()
+        authorsStore.updateAuthors(authors)
         
-        return peopleStore
+        return authorsStore
     }
     
-    static var makeDummyEmpty: PeopleStore {
-        let peopleStore = PeopleStore()
+    static var makeDummyEmpty: AuthorsStore {
+        let authorsStore = AuthorsStore()
         
-        return peopleStore
+        return authorsStore
     }
 }
 

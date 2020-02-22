@@ -1,4 +1,4 @@
-extension PeopleListViewModel {
+extension AuthorsListViewModel {
     enum State {
         case initial
         case error
@@ -7,7 +7,7 @@ extension PeopleListViewModel {
     }
 }
 
-extension PeopleListViewModel.State: CustomStringConvertible {
+extension AuthorsListViewModel.State: CustomStringConvertible {
     var description: String {
         switch self {
             case .loading, .initial:
