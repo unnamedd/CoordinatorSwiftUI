@@ -1,7 +1,7 @@
 import SwiftUI
 
 protocol AuthenticationViewDelegate: AnyObject {
-    func authenticationView(_ view: AuthenticationView, didFinishAuthentication user: User)
+    func authenticationViewDidFinish(_ view: AuthenticationView)
 }
 
 struct AuthenticationView: View {
@@ -11,11 +11,7 @@ struct AuthenticationView: View {
         VStack {
             Text("Authentication")
             
-            Button(action: {
-                let user = Users.makeDummy[0]
-                self.delegate?.authenticationView(self, didFinishAuthentication: user)
-                
-            }) {
+            Button(action: { self.delegate?.authenticationViewDidFinish(self) }) {
                 Text("Login")
             }
         }
@@ -28,8 +24,8 @@ struct AuthenticationView: View {
 
 final class AuthenticationViewDelegateMock: AuthenticationViewDelegate {
     private var isFinished = false
-
-    func authenticationView(_ view: AuthenticationView, didFinishAuthentication user: User) {
+    
+    func authenticationViewDidFinish(_ view: AuthenticationView) {
         isFinished = true
     }
 }
