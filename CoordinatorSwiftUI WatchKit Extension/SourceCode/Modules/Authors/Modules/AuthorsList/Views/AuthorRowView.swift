@@ -6,10 +6,6 @@ struct AuthorRowView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                if author.isEditor {
-                    Image(systemName: "pencil.and.outline")
-                }
-                
                 Text(author.name)
                     .font(.subheadline)
                     .bold()
@@ -22,9 +18,9 @@ struct AuthorRowView: View {
             Divider().frame(height: 1)
             
             HStack(alignment: .top) {
-                Text("Bio: ").bold()
+                Text("Nationality: ").bold()
                 +
-                Text("\(author.biography)")
+                Text("\(author.nationality)")
                     .font(.caption)
                     .fontWeight(.thin)
             }

@@ -1,12 +1,22 @@
+import Foundation
+
 final class AuthorsProviderSuccessMock: AuthorsProviderProtocol {
     func listAuthors(completion: @escaping (AuthorsProviderResult) -> Void) {
+        let authorsStub = Authors.makeDummy
+        let firstAuthor = authorsStub[0]
+        let secondAuthor = authorsStub[1]
+        
         completion(
-            .success(
-                [
-                    Author(name: "Simon Dach", age: 23, biography: "No biography", isEditor: true),
-                    Author(name: "Otto Braun", age: 64, biography: "Public man", isEditor: true)
-                ]
-            )
+            .success([firstAuthor, secondAuthor])
+        )
+    }
+
+    func authorDetails(for identifier: String, completion: @escaping (AuthorProviderResult) -> Void) {
+        let authorsStub = Authors.makeDummy
+        let firstAuthor = authorsStub[0]
+        
+        completion(
+            .success(firstAuthor)
         )
     }
 }

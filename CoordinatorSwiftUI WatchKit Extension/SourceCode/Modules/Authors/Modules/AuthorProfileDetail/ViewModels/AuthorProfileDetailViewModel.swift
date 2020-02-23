@@ -4,32 +4,22 @@ final class AuthorProfileDetailViewModel: ObservableObject {
     private var authorsStore: AuthorsStore
     
     @Published
-    private var author: Author
+    private(set) var author: Author
     
     var fullname: String {
         author.name
     }
     
     var firstname: String {
-        let names = fullname.split(separator: " ")
-        
-        guard let firstname = names.first else {
-            return fullname
-        }
-        
-        return String(firstname)
+        author.firstname
     }
     
-    var userAge: Int {
-        author.age
+    var isFavourite: Bool {
+        return true
     }
     
-    var biographyDescription: String {
-        author.biography
-    }
- 
-    var isAuthor: Bool {
-        author.isEditor
+    var biography: String {
+        author.description
     }
     
     init(author: Author, store: AuthorsStore) {
@@ -38,8 +28,8 @@ final class AuthorProfileDetailViewModel: ObservableObject {
     }
     
     func updateAuthor(_ isAuthor: Bool) {
-        self.author = self.author.updating(\.isEditor, to: isAuthor)
-        authorsStore.updateAuthor(author)
+//        self.author = self.author.updating(\.isEditor, to: isAuthor)
+//        authorsStore.updateAuthor(author)
     }
     
     func loadAuthorDetails() {

@@ -12,22 +12,26 @@ struct AuthorProfileDetailView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 HStack {
-                    if self.viewModel.isAuthor {
-                        Image(systemName: "pencil.and.outline")
-                    }
-                    
                     Text(self.viewModel.fullname)
                         .font(.headline)
                         .fontWeight(.heavy)
                         .bold()
                         .lineLimit(1)
+                        .padding(.bottom)
                 }
                 
-                Text("Age: ")
+                Text("Qtd. books: ")
                     .bold()
                     .foregroundColor(Color.gray)
                     +
-                    Text("\(self.viewModel.userAge)")
+                    Text("\(self.viewModel.author.numberOfBooks)")
+                        .font(.caption)
+                
+                Text("Nationality: ")
+                    .bold()
+                    .foregroundColor(Color.gray)
+                    +
+                    Text("\(self.viewModel.author.nationality)")
                         .font(.caption)
                 
                 Divider()
@@ -36,18 +40,18 @@ struct AuthorProfileDetailView: View {
                     .bold()
                     .foregroundColor(Color.gray)
                     +
-                    Text("\(self.viewModel.biographyDescription)")
+                    Text("\(self.viewModel.biography)")
                         .font(.caption)
                 
                 Divider()
                 
                 Toggle(
                     isOn: Binding<Bool>(
-                        get: { self.viewModel.isAuthor },
+                        get: { self.viewModel.isFavourite },
                         set: { self.viewModel.updateAuthor($0) }
                     )
                 ) {
-                    Text("Author")
+                    Text("Favourite")
                 }
                 .padding(.trailing)
             }
