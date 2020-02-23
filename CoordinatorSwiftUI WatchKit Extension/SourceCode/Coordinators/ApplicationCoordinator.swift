@@ -1,96 +1,66 @@
 import Combine
 import SwiftUI
 
-protocol Coordinator: AnyObject {
-    func start() -> AnyView
-}
-
-final class ApplicationCoordinator: ObservableObject, Coordinator {
-    enum FlowCase {
-        case authenticated
-        case login
-    }
+final class ApplicationCoordinator: Coordinator, ObservableObject {
     
     @Published
-    private var flowCase: FlowCase
-    
-    @Published
-    private var authorsStore = AuthorsStore()
+    private var userManager = UserManager.shared
     
     // MARK: - Init
-    init() {
-        self.flowCase = .login
+    override init() {
+        super.init()
     }
     
-    private lazy var authenticationView: AuthenticationView = {
-        var authenticationView = AuthenticationView()
-        authenticationView.delegate = self
-        
-        return authenticationView
-    }()
-    
-    private lazy var authorsListView: AuthorsListView = {
-        let authorsProvider = AuthorsProvider()
-        
-        let authorsListViewModel = AuthorsListViewModel(
-            provider: authorsProvider,
-            store: authorsStore
-        )
-        
-        var authorsListView = AuthorsListView(
-            viewModel: authorsListViewModel
-        )
-        
-        authorsListView.delegate = self
-        
-        return authorsListView
-    }()
-    
-    func start() -> AnyView {
-        guard flowCase == .authenticated else {
-            return authenticationView.any
+    override func start() -> AnyView {
+        guard userManager.isUserAuthenticated else {
+            return startAuthentication()
         }
         
-        return authorsListView
-            .environmentObject(authorsStore) // This is a workaround to make possible rebuild AuthorsListView every time AuthorsStore instance is updated
-            .any
-    }
-}
-
-// MARK: - AuthenticationView Delegate
-
-extension ApplicationCoordinator: AuthenticationViewDelegate {
-    func authenticationViewDidFinish(_ view: AuthenticationView) {
-        self.flowCase = .authenticated
-    }
-}
-
-// MARK: - ProfileView Delegate
-
-extension ApplicationCoordinator: AuthorsListViewDelegate {
-    func authorsListView<Label>(_ view: AuthorsListView, navigationLinkForAuthor author: Author, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
-        
-        let profileDetailViewModel = AuthorProfileDetailViewModel(
-            author: author,
-            store: authorsStore
-        )
-        
-        let profileDetailView = AuthorProfileDetailView(
-            viewModel: profileDetailViewModel
-        ).any
-        
-        let navigationLink = NavigationLink(
-            destination: profileDetailView,
-            label: viewBuilder
-        )
-        
-        return navigationLink
+        return startAuthors()
     }
     
-    func authorsListViewDidFinishSession(_ view: AuthorsListView) {
-        self.flowCase = .login
+    func startAuthentication() -> AnyView {
+        let authenticationCoordinator = AuthenticationCoordinator()
+        authenticationCoordinator.delegate = self
+        
+        addChild(authenticationCoordinator)
+        
+        return authenticationCoordinator.start()
+    }
+    
+    func startAuthors() -> AnyView {
+        let authorsCoordinator = AuthorsCoordinator()
+        authorsCoordinator.delegate = self
+        
+        addChild(authorsCoordinator)
+        
+        return authorsCoordinator.start()
     }
 }
+
+// MARK: - AuthenticationCoordinator Delegate
+
+extension ApplicationCoordinator: AuthenticationCoordinatorDelegate {
+    func authenticationCoordinator(_ coordinator: AuthenticationCoordinator, didFinishAuthentication user: User) {
+        removeChild(coordinator)
+        
+        userManager.set(user)
+        self.objectWillChange.send()
+    }
+}
+
+// MARK: - AuthorsCoordinator Delegate
+
+extension ApplicationCoordinator: AuthorsCoordinatorDelegate {
+    func authorsCoordinatorDidFinish(_ coordinator: AuthorsCoordinator) {
+        removeChild(coordinator)
+        
+        userManager.clearData()
+        self.objectWillChange.send()
+    }
+}
+
+
 
 // MARK: - Dummy
 
