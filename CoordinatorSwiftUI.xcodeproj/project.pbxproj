@@ -14,6 +14,16 @@
 		910885DE23F56C2B007ED5A3 /* RefreshButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910885DD23F56C2B007ED5A3 /* RefreshButtonView.swift */; };
 		912B3C26230B38C700BD0FBB /* AuthorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B3C25230B38C700BD0FBB /* AuthorRowView.swift */; };
 		913E216A230C8E1A00C675DC /* LogoutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E2169230C8E1A00C675DC /* LogoutButtonView.swift */; };
+		91506BC62401B4A800D47845 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BC52401B4A800D47845 /* Coordinator.swift */; };
+		91506BC92401B7C100D47845 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BC82401B7C100D47845 /* AuthenticationCoordinator.swift */; };
+		91506BCB2401BE4900D47845 /* AuthorsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BCA2401B7CB00D47845 /* AuthorsCoordinator.swift */; };
+		91506BCF2401C64A00D47845 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BCE2401C64A00D47845 /* User.swift */; };
+		91506BD62401CBF600D47845 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 91506BD52401CBF600D47845 /* Users.json */; };
+		91506BD82401CC6000D47845 /* UsersStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BD72401CC6000D47845 /* UsersStub.swift */; };
+		91506BDA2401CE1B00D47845 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BD92401CE1B00D47845 /* File.swift */; };
+		91506BDC2401D38F00D47845 /* Authors.json in Resources */ = {isa = PBXBuildFile; fileRef = 91506BDB2401D37C00D47845 /* Authors.json */; };
+		91506BDE2401D5B000D47845 /* AuthorsStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BDD2401D5B000D47845 /* AuthorsStub.swift */; };
+		91506BE024020C2100D47845 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BDF24020C2100D47845 /* Thumbnail.swift */; };
 		9157FDF223F47E8000E44849 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157FDF123F47E8000E44849 /* Author.swift */; };
 		9157FDFF23F47FF900E44849 /* AuthorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157FDFE23F47FF900E44849 /* AuthorsProvider.swift */; };
 		9157FE0123F491DD00E44849 /* AuthorsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9157FE0023F491DD00E44849 /* AuthorsListViewModel.swift */; };
@@ -31,6 +41,7 @@
 		9197DB2C2307475D00E25F19 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */; };
 		919BAC7723F4A27D0000A3B7 /* AuthorsListViewModel+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101B22623F494420082C227 /* AuthorsListViewModel+State.swift */; };
 		919BAC7923F4A28D0000A3B7 /* View+Convertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BAC7823F4A28D0000A3B7 /* View+Convertion.swift */; };
+		91A35970240247D30081E634 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91506BCD2401C16C00D47845 /* UserManager.swift */; };
 		91F253E4230829B5002230D6 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E3230829B5002230D6 /* AuthenticationView.swift */; };
 		91F253E6230829C3002230D6 /* AuthorProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E5230829C3002230D6 /* AuthorProfileDetailView.swift */; };
 		91F253E8230829D0002230D6 /* AuthorsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F253E7230829D0002230D6 /* AuthorsListView.swift */; };
@@ -87,6 +98,18 @@
 		910885DD23F56C2B007ED5A3 /* RefreshButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButtonView.swift; sourceTree = "<group>"; };
 		912B3C25230B38C700BD0FBB /* AuthorRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRowView.swift; sourceTree = "<group>"; };
 		913E2169230C8E1A00C675DC /* LogoutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButtonView.swift; sourceTree = "<group>"; };
+		91506BC52401B4A800D47845 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		91506BC82401B7C100D47845 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		91506BCA2401B7CB00D47845 /* AuthorsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsCoordinator.swift; sourceTree = "<group>"; };
+		91506BCD2401C16C00D47845 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		91506BCE2401C64A00D47845 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		91506BD12401C8BF00D47845 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		91506BD52401CBF600D47845 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		91506BD72401CC6000D47845 /* UsersStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersStub.swift; sourceTree = "<group>"; };
+		91506BD92401CE1B00D47845 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		91506BDB2401D37C00D47845 /* Authors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Authors.json; sourceTree = "<group>"; };
+		91506BDD2401D5B000D47845 /* AuthorsStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsStub.swift; sourceTree = "<group>"; };
+		91506BDF24020C2100D47845 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		9157FDF123F47E8000E44849 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		9157FDFE23F47FF900E44849 /* AuthorsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsProvider.swift; sourceTree = "<group>"; };
 		9157FE0023F491DD00E44849 /* AuthorsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsListViewModel.swift; sourceTree = "<group>"; };
@@ -192,6 +215,7 @@
 		912920C123F5B5FB0017124B /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				91506BCA2401B7CB00D47845 /* AuthorsCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -240,9 +264,63 @@
 			path = ContextMenu;
 			sourceTree = "<group>";
 		};
+		91506BC72401B7A800D47845 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				91506BC82401B7C100D47845 /* AuthenticationCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		91506BCC2401C15E00D47845 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				91506BCD2401C16C00D47845 /* UserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		91506BD02401C8B700D47845 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				91506BD12401C8BF00D47845 /* UserListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		91506BD22401CBB300D47845 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				91506BD42401CBDA00D47845 /* Authors */,
+				91506BD32401CBD600D47845 /* Users */,
+				91506BD92401CE1B00D47845 /* File.swift */,
+				91506BDD2401D5B000D47845 /* AuthorsStub.swift */,
+				91506BD72401CC6000D47845 /* UsersStub.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		91506BD32401CBD600D47845 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				91506BD52401CBF600D47845 /* Users.json */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		91506BD42401CBDA00D47845 /* Authors */ = {
+			isa = PBXGroup;
+			children = (
+				91506BDB2401D37C00D47845 /* Authors.json */,
+			);
+			path = Authors;
+			sourceTree = "<group>";
+		};
 		9157FDF323F47EB000E44849 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				91506BCE2401C64A00D47845 /* User.swift */,
+				91506BDF24020C2100D47845 /* Thumbnail.swift */,
 				9157FDF123F47E8000E44849 /* Author.swift */,
 			);
 			path = Models;
@@ -251,6 +329,7 @@
 		9157FDF423F47EBB00E44849 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				91506BC52401B4A800D47845 /* Coordinator.swift */,
 				9197DB2B2307475D00E25F19 /* ApplicationCoordinator.swift */,
 			);
 			path = Coordinators;
@@ -277,6 +356,8 @@
 		9157FDF823F47F0E00E44849 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				91506BD02401C8B700D47845 /* ViewModels */,
+				91506BC72401B7A800D47845 /* Coordinators */,
 				9157FDFA23F47F2300E44849 /* Views */,
 			);
 			path = Authentication;
@@ -391,11 +472,13 @@
 				9101B22823F49C0B0082C227 /* ExtensionDelegate */,
 				918BA53223F49E27004032AE /* Extensions */,
 				9157FDF623F47EE400E44849 /* LifeCycle */,
+				91506BCC2401C15E00D47845 /* Managers */,
 				9157FDF323F47EB000E44849 /* Models */,
 				9157FDF723F47F0B00E44849 /* Modules */,
 				910885DA23F55F37007ED5A3 /* Protocols */,
 				912920BD23F5A8540017124B /* Providers */,
 				910885D023F5499E007ED5A3 /* Stores */,
+				91506BD22401CBB300D47845 /* Stubs */,
 			);
 			path = SourceCode;
 			sourceTree = "<group>";
@@ -516,7 +599,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91506BD62401CBF600D47845 /* Users.json in Resources */,
 				9197DB1B2307461F00E25F19 /* Preview Assets.xcassets in Resources */,
+				91506BDC2401D38F00D47845 /* Authors.json in Resources */,
 				9197DB182307461F00E25F19 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,9 +615,14 @@
 			files = (
 				91F253E8230829D0002230D6 /* AuthorsListView.swift in Sources */,
 				91F253E6230829C3002230D6 /* AuthorProfileDetailView.swift in Sources */,
+				91506BDE2401D5B000D47845 /* AuthorsStub.swift in Sources */,
 				919BAC7723F4A27D0000A3B7 /* AuthorsListViewModel+State.swift in Sources */,
 				9197DB142307461E00E25F19 /* HostingController.swift in Sources */,
 				9157FDF223F47E8000E44849 /* Author.swift in Sources */,
+				91506BDA2401CE1B00D47845 /* File.swift in Sources */,
+				91506BD82401CC6000D47845 /* UsersStub.swift in Sources */,
+				91506BCF2401C64A00D47845 /* User.swift in Sources */,
+				91506BCB2401BE4900D47845 /* AuthorsCoordinator.swift in Sources */,
 				910885DC23F55F37007ED5A3 /* KeyPathUpdatable.swift in Sources */,
 				91F253E4230829B5002230D6 /* AuthenticationView.swift in Sources */,
 				9197DB122307461E00E25F19 /* ApplicationView.swift in Sources */,
@@ -540,13 +630,17 @@
 				913E216A230C8E1A00C675DC /* LogoutButtonView.swift in Sources */,
 				910885D423F55493007ED5A3 /* AuthorProfileDetailViewModel.swift in Sources */,
 				919BAC7923F4A28D0000A3B7 /* View+Convertion.swift in Sources */,
+				91506BE024020C2100D47845 /* Thumbnail.swift in Sources */,
+				91A35970240247D30081E634 /* UserManager.swift in Sources */,
 				9197DB162307461E00E25F19 /* ExtensionDelegate.swift in Sources */,
+				91506BC62401B4A800D47845 /* Coordinator.swift in Sources */,
 				9157FE0123F491DD00E44849 /* AuthorsListViewModel.swift in Sources */,
 				912B3C26230B38C700BD0FBB /* AuthorRowView.swift in Sources */,
 				910885D923F55E4C007ED5A3 /* Binding+Convenience.swift in Sources */,
 				910885D223F549AD007ED5A3 /* AuthorsStore.swift in Sources */,
 				917DA74623F4A60400047838 /* AuthorsProviderFailureMock.swift in Sources */,
 				910885DE23F56C2B007ED5A3 /* RefreshButtonView.swift in Sources */,
+				91506BC92401B7C100D47845 /* AuthenticationCoordinator.swift in Sources */,
 				9197DB2C2307475D00E25F19 /* ApplicationCoordinator.swift in Sources */,
 				917DA74423F4A4FC00047838 /* AuthorsProviderSuccessMock.swift in Sources */,
 			);
