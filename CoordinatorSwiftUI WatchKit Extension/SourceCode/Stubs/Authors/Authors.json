@@ -1,0 +1,1740 @@
+[
+    {
+        "author": "William Shakespeare",
+        "canonical": "William_Shakespeare",
+        "description": "William Shakespeare was an English poet, playwright, and actor, widely regarded as the greatest writer in the English language and the world's greatest dramatist. He is often called England's national poet and the \"Bard of Avon\". His extant works, including collaborations, consist of some 39 plays, 154 sonnets, two long narrative poems, and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright.",
+        "genre_or_major_works": "Plays and poetry",
+        "id": "B1CFC266-032E-4AD9-BA5D-8D7C10AC9A22",
+        "maximum_estimated_sales": "4 billion",
+        "minimum_estimated_sales": "2 billion",
+        "nationality": "English",
+        "number_of_books": "42",
+        "original_language": "English",
+        "position": 1,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/250px-Shakespeare.jpg",
+            "width": 250
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/William_Shakespeare"
+    },
+    {
+        "author": "Agatha Christie",
+        "canonical": "Agatha_Christie",
+        "description": "Dame Agatha Mary Clarissa Christie, Lady Mallowan, was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple. She also wrote the world's longest-running play The Mousetrap and six romances under the pen name Mary Westmacott. In 1971, she was appointed a Dame Commander of the Order of the British Empire (DBE) for her contribution to literature.",
+        "genre_or_major_works": "Whodunits including the Miss Marple and Hercule Poirot series",
+        "id": "075272F9-16FB-4699-8DD8-81E36581DF4B",
+        "maximum_estimated_sales": "4 billion",
+        "minimum_estimated_sales": "2 billion",
+        "nationality": "English",
+        "number_of_books": "85",
+        "original_language": "English",
+        "position": 2,
+        "thumbnail": {
+            "height": 318,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Agatha_Christie_in_1925.jpg",
+            "width": 252
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Agatha_Christie"
+    },
+    {
+        "author": "Barbara Cartland",
+        "canonical": "Barbara_Cartland",
+        "description": "Dame Mary Barbara Hamilton Cartland, was an English novelist who wrote romance novels, one of the best-selling authors as well as one of the most prolific and commercially successful worldwide of the 20th century. Her 723 novels were translated into 38 languages and she continues to be referenced in the Guinness World Records for the most novels published in a single year in 1976.",
+        "genre_or_major_works": "Romance",
+        "id": "D21D77CE-097B-4BF1-9DF5-A3AB8048B76D",
+        "maximum_estimated_sales": "1 billion",
+        "minimum_estimated_sales": "500 million",
+        "nationality": "English",
+        "number_of_books": "723",
+        "original_language": "English",
+        "position": 3,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Dame_Barbara_Cartland_Allan_Warren.jpg/271px-Dame_Barbara_Cartland_Allan_Warren.jpg",
+            "width": 271
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Barbara_Cartland"
+    },
+    {
+        "author": "Danielle Steel",
+        "canonical": "Danielle_Steel",
+        "description": "Danielle Fernandes Dominique Schuelein-Steel is an American writer, best known for her romance novels. She is the bestselling author alive and the fourth bestselling fiction author of all time, with over 800 million copies sold. She has written 179 books, including over 146 novels.",
+        "genre_or_major_works": "Romance",
+        "id": "6D847B60-30E9-488B-8DB6-B738A49FC459",
+        "maximum_estimated_sales": "800 million",
+        "minimum_estimated_sales": "500 million",
+        "nationality": "American",
+        "number_of_books": "179",
+        "original_language": "English",
+        "position": 4,
+        "thumbnail": {
+            "height": 176,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Danielle_steel_signature.svg/320px-Danielle_steel_signature.svg.png",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Danielle_Steel"
+    },
+    {
+        "author": "Harold Robbins",
+        "canonical": "Harold_Robbins",
+        "description": "Harold Robbins was an American author of popular novels. One of the best-selling writers of all time, he penned over 25 best-sellers, selling over 750 million copies in 32 languages.",
+        "genre_or_major_works": "Adventure",
+        "id": "9271A94C-CBB6-4467-AFBF-17B7B3E5990F",
+        "maximum_estimated_sales": "750 million",
+        "minimum_estimated_sales": "750 million",
+        "nationality": "American",
+        "number_of_books": "23",
+        "original_language": "English",
+        "position": 5,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Harold_Robbins_%281979%29.jpg/240px-Harold_Robbins_%281979%29.jpg",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Harold_Robbins"
+    },
+    {
+        "author": "Georges Simenon",
+        "canonical": "Georges_Simenon",
+        "description": "Georges Joseph Christian Simenon was a Belgian writer. A prolific author who published nearly 500 novels and numerous short works, Simenon is best known as the creator of the fictional detective Jules Maigret.",
+        "genre_or_major_works": "Detectives, Maigret, romans dur",
+        "id": "355C5212-AD8D-45EE-87AB-A2B9670A315F",
+        "maximum_estimated_sales": "700 million",
+        "minimum_estimated_sales": "500 million",
+        "nationality": "Belgian",
+        "number_of_books": "570",
+        "original_language": "French",
+        "position": 6,
+        "thumbnail": {
+            "height": 300,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Georges_Simenon_%281963%29_without_hat_by_Erling_Mandelmann.jpg",
+            "width": 205
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Georges_Simenon"
+    },
+    {
+        "author": "Enid Blyton",
+        "canonical": "Enid_Blyton",
+        "description": "Enid Mary Blyton was an English children's writer whose books have been among the world's best-sellers since the 1930s, selling more than 600 million copies. Blyton's books are still enormously popular, and have been translated into 90 languages. She wrote on a wide range of topics including education, natural history, fantasy, mystery, and biblical narratives and is best remembered today for her Noddy, Famous Five and Secret Seven series.",
+        "genre_or_major_works": "Children's literature, Noddy, The Famous Five, The Secret Seven",
+        "id": "A01B375B-1F79-4846-BF41-9D14B31E6EBB",
+        "maximum_estimated_sales": "600 million",
+        "minimum_estimated_sales": "",
+        "nationality": "English",
+        "number_of_books": "800",
+        "original_language": "English",
+        "position": 7,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Enid_Blyton.jpg/304px-Enid_Blyton.jpg",
+            "width": 304
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Enid_Blyton"
+    },
+    {
+        "author": "Sidney Sheldon",
+        "canonical": "Sidney_Sheldon",
+        "description": "Sidney Sheldon was an American writer and producer.",
+        "genre_or_major_works": "Suspense",
+        "id": "071EB040-D4CF-442B-A2A1-8C328D1026A5",
+        "maximum_estimated_sales": "600 million",
+        "minimum_estimated_sales": "370 million",
+        "nationality": "American",
+        "number_of_books": "21",
+        "original_language": "English",
+        "position": 8,
+        "thumbnail": {
+            "height": 235,
+            "source": "https://upload.wikimedia.org/wikipedia/en/f/f6/Sidney_Sheldon.jpg",
+            "width": 160
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Sidney_Sheldon"
+    },
+    {
+        "author": "J. K. Rowling",
+        "canonical": "J._K._Rowling",
+        "description": "Joanne Rowling, better known by her pen name J. K. Rowling, is a British author, film producer, television producer, screenwriter, and philanthropist. She is best known for writing the Harry Potter fantasy series, which has won multiple awards and sold more than 500 million copies, becoming the best-selling book series in history. The books are the basis of a popular film series, over which Rowling had overall approval on the scripts and was a producer on the final films. She also writes crime fiction under the name Robert Galbraith.",
+        "genre_or_major_works": "Harry Potter, Fantastic Beasts and Where to Find Them",
+        "id": "C3DD1204-92ED-4205-B7EE-3F5FC539A31F",
+        "maximum_estimated_sales": "500 million",
+        "minimum_estimated_sales": "",
+        "nationality": "British",
+        "number_of_books": "15",
+        "original_language": "English",
+        "position": 9,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/259px-J._K._Rowling_2010.jpg",
+            "width": 259
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/J._K._Rowling"
+    },
+    {
+        "author": "Gilbert Patten",
+        "canonical": "Gilbert_Patten",
+        "description": "William George \"Gilbert\" Patten was a writer of dime novels and is best known as author of the Frank Merriwell stories, with the pen name Burt L. Standish.",
+        "genre_or_major_works": "Adolescent adventures",
+        "id": "83635052-0651-4875-ABD7-BF31ADB64F77",
+        "maximum_estimated_sales": "500 million",
+        "minimum_estimated_sales": "125 million",
+        "nationality": "American",
+        "number_of_books": "209",
+        "original_language": "English",
+        "position": 10,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Gilbert_Patten"
+    },
+    {
+        "author": "Dr. Seuss",
+        "canonical": "Dr._Seuss",
+        "description": "Theodor Seuss \"Ted\" Geisel was an American children's author, political cartoonist, illustrator, poet, animator, screenwriter, and filmmaker. He is known for his work writing and illustrating more than 60 books under the pen name Doctor Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death.",
+        "genre_or_major_works": "Children's literature",
+        "id": "DB3F15BA-00A7-409F-AF2B-68E587DBD058",
+        "maximum_estimated_sales": "500 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "44",
+        "original_language": "English",
+        "position": 11,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ted_Geisel_NYWTS_2_crop.jpg/301px-Ted_Geisel_NYWTS_2_crop.jpg",
+            "width": 301
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Dr._Seuss"
+    },
+    {
+        "author": "Eiichiro Oda",
+        "canonical": "Eiichiro_Oda",
+        "description": "Eiichiro Oda  is a Japanese manga artist, who is best known for his manga series One Piece (1997–present). With more than 462 million tankōbon copies in circulation worldwide, One Piece is the best-selling manga and the best-selling comic series of all time, making Oda one of the best-selling fiction authors. The series' popularity resulted in Oda being named one of the manga artists that changed the history of manga.",
+        "genre_or_major_works": "Manga, One Piece",
+        "id": "A5E28B48-99B3-4F08-9838-FC188FD1569B",
+        "maximum_estimated_sales": "462 million[c]",
+        "minimum_estimated_sales": "460 million",
+        "nationality": "Japanese",
+        "number_of_books": "95",
+        "original_language": "Japanese",
+        "position": 12,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Eiichiro_Oda"
+    },
+    {
+        "author": "Leo Tolstoy",
+        "canonical": "Leo_Tolstoy",
+        "description": "Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time. He received multiple nominations for the Nobel Prize in Literature every year from 1902 to 1906, and nominations for Nobel Peace Prize in 1901, 1902 and 1910, and the fact that he never won is a major Nobel prize controversy.",
+        "genre_or_major_works": "War and Peace, Anna Karenina",
+        "id": "99779CDD-9F15-4B9F-B2F6-5A1FED7BCB44",
+        "maximum_estimated_sales": "413 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Russian",
+        "number_of_books": "48",
+        "original_language": "Russian",
+        "position": 13,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Leo_Tolstoy%2C_05.1908.ws.jpg/253px-Leo_Tolstoy%2C_05.1908.ws.jpg",
+            "width": 253
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Leo_Tolstoy"
+    },
+    {
+        "author": "Corín Tellado",
+        "canonical": "Corín_Tellado",
+        "description": "María del Socorro Tellado López, known as Corín Tellado, was a prolific Spanish writer of romantic novels and photonovels that were best-sellers in several Spanish-language countries. She published more than 5,000 titles and sold more than 400 million books which have been translated into several languages. She was listed in the 1994 Guinness World Records as having sold the most books written in Spanish, and earlier in 1962 UNESCO declared her the most read Spanish writer after Miguel de Cervantes.",
+        "genre_or_major_works": "Romance",
+        "id": "C69609C6-5736-4B25-BEE2-8D08ACD93EFD",
+        "maximum_estimated_sales": "400 million",
+        "minimum_estimated_sales": "400 million",
+        "nationality": "Spanish",
+        "number_of_books": "4,000",
+        "original_language": "Spanish",
+        "position": 14,
+        "thumbnail": {
+            "height": 195,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Corin_Tellado_cropped2.jpg",
+            "width": 188
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Cor%C3%ADn_Tellado"
+    },
+    {
+        "author": "Jackie Collins",
+        "canonical": "Jackie_Collins",
+        "description": "Jacqueline Jill Collins OBE was an English romance novelist. She moved to Los Angeles in the 1960s and spent most of her career there. She wrote 32 novels, all of which appeared on The New York Times bestsellers list. Her books have sold over 500 million copies and have been translated into 40 languages. Eight of her novels have been adapted for the screen, either as films or television miniseries. She was the younger sister of Dame Joan Collins.",
+        "genre_or_major_works": "Romance",
+        "id": "A20C7EE4-9897-4E0A-B3EE-DEC4527025FD",
+        "maximum_estimated_sales": "400 million",
+        "minimum_estimated_sales": "250 million",
+        "nationality": "English",
+        "number_of_books": "25",
+        "original_language": "English",
+        "position": 15,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Jackie_Collins.jpg/213px-Jackie_Collins.jpg",
+            "width": 213
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Jackie_Collins"
+    },
+    {
+        "author": "Horatio Alger",
+        "canonical": "Horatio_Alger",
+        "description": "Horatio Alger Jr. was an American writer of young adult novels about impoverished boys and their rise from humble backgrounds to lives of middle-class security and comfort through hard work, determination, courage, and honesty. His writings were characterized by the \"rags-to-riches\" narrative, which had a formative effect on the United States during the Gilded Age.",
+        "genre_or_major_works": "Dime novels",
+        "id": "68204677-E85E-47C8-A78B-3DE6D5129FDD",
+        "maximum_estimated_sales": "400 million",
+        "minimum_estimated_sales": "200 million",
+        "nationality": "American",
+        "number_of_books": "135",
+        "original_language": "English",
+        "position": 16,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Horatio_Alger_Jr.jpg/244px-Horatio_Alger_Jr.jpg",
+            "width": 244
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Horatio_Alger"
+    },
+    {
+        "author": "R. L. Stine",
+        "canonical": "R._L._Stine",
+        "description": "Robert Lawrence Stine, sometimes known as Jovial Bob Stine and Eric Affabee, is an American novelist, short story writer, television producer, screenwriter, and executive editor.",
+        "genre_or_major_works": "Goosebumps series, Fear Street series, horror, comedy",
+        "id": "E3CAE3BA-10CD-4BA1-BED6-A10614E54DAC",
+        "maximum_estimated_sales": "400 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "430+",
+        "original_language": "English",
+        "position": 17,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/R._L._Stine_by_Gage_Skidmore.jpg/246px-R._L._Stine_by_Gage_Skidmore.jpg",
+            "width": 246
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/R._L._Stine"
+    },
+    {
+        "author": "Dean Koontz",
+        "canonical": "Dean_Koontz",
+        "description": "Dean Ray Koontz is an American author. His novels are billed as suspense thrillers, but frequently incorporate elements of horror, fantasy, science fiction, mystery, and satire. Many of his books have appeared on The New York Times Best Seller list, with 14 hardcovers and 16 paperbacks reaching the number-one position. Koontz wrote under a number of pen names earlier in his career, including \"David Axton\", \"Deanna Dwyer\", \"K.R. Dwyer\", \"Leigh Nichols\", and \"Brian Coffey\".\nHe has published over 105 novels, a number of novellas and collections of short stories, and has sold over 450 million copies of his work.",
+        "genre_or_major_works": "Horror, thriller, science fiction, fantasy",
+        "id": "7369FA45-3591-42D0-BEBF-ACD9972B6890",
+        "maximum_estimated_sales": "400 million",
+        "minimum_estimated_sales": "325 million",
+        "nationality": "American",
+        "number_of_books": "91",
+        "original_language": "English",
+        "position": 18,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Dean_Koontz"
+    },
+    {
+        "author": "Nora Roberts",
+        "canonical": "Nora_Roberts",
+        "description": "Nora Roberts is an American author of more than 225 romance novels. She writes as J. D. Robb for the in Death series and has also written under the pseudonyms Jill March and for publications in the U.K. as Sarah Hardesty.",
+        "genre_or_major_works": "Romance",
+        "id": "DA29DE6B-1230-44EB-BB19-79AED61CC6E8",
+        "maximum_estimated_sales": "400 million",
+        "minimum_estimated_sales": "145 million",
+        "nationality": "American",
+        "number_of_books": "200+",
+        "original_language": "English",
+        "position": 19,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/NoraRoberts.jpg/224px-NoraRoberts.jpg",
+            "width": 224
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Nora_Roberts"
+    },
+    {
+        "author": "Alexander Pushkin",
+        "canonical": "Alexander_Pushkin",
+        "description": "Alexander Sergeyevich Pushkin was a Russian poet, playwright, and novelist of the Romantic era who is considered by many to be the greatest Russian poet and the founder of modern Russian literature.",
+        "genre_or_major_works": "Plays, poetry, prose, Eugene Onegin",
+        "id": "4D936EB2-B83F-4346-A3E6-27E236B72CF4",
+        "maximum_estimated_sales": "357 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Russian",
+        "number_of_books": "17",
+        "original_language": "Russian",
+        "position": 20,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Portrait_of_Alexander_Pushkin_%28Orest_Kiprensky%2C_1827%29.PNG/274px-Portrait_of_Alexander_Pushkin_%28Orest_Kiprensky%2C_1827%29.PNG",
+            "width": 274
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Alexander_Pushkin"
+    },
+    {
+        "author": "Stephen King",
+        "canonical": "Stephen_King",
+        "description": "Stephen Edwin King is an American author of horror, supernatural fiction, suspense, and fantasy novels. His books have sold more than 350 million copies, many of which have been adapted into feature films, miniseries, television series, and comic books. King has published 61 novels and six non-fiction books. He has written approximately 200 short stories, most of which have been published in book collections.",
+        "genre_or_major_works": "Horror, science fiction, fantasy, It, The Shining, The Stand, Bag of Bones, Needful Things, The Green Mile",
+        "id": "E128B08A-F892-485E-B05C-1FDC58FFAEFE",
+        "maximum_estimated_sales": "350 million",
+        "minimum_estimated_sales": "300 million",
+        "nationality": "American",
+        "number_of_books": "70",
+        "original_language": "English",
+        "position": 21,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Stephen_King%2C_Comicon.jpg/252px-Stephen_King%2C_Comicon.jpg",
+            "width": 252
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Stephen_King"
+    },
+    {
+        "author": "Paulo Coelho",
+        "canonical": "Paulo_Coelho",
+        "description": "Paulo Coelho de Souza is a Brazilian lyricist and novelist, best known for his novel The Alchemist. In 2014, he uploaded his personal papers online to create a virtual Paulo Coelho Foundation.",
+        "genre_or_major_works": "The Alchemist",
+        "id": "130D8974-7D44-4BEB-A7CB-CBCE6C85C821",
+        "maximum_estimated_sales": "350 million",
+        "minimum_estimated_sales": "225 million",
+        "nationality": "Brazilian",
+        "number_of_books": "28",
+        "original_language": "Portuguese",
+        "position": 22,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Coelhopaulo26012007-1.jpg/234px-Coelhopaulo26012007-1.jpg",
+            "width": 234
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Paulo_Coelho"
+    },
+    {
+        "author": "Jeffrey Archer",
+        "canonical": "Jeffrey_Archer",
+        "description": "Jeffrey Howard Archer is an English novelist, former politician, convicted perjurer, and peer of the realm.",
+        "genre_or_major_works": "Saga, thriller, short stories, Kane and Abel, The Clifton Chronicles",
+        "id": "F366EF11-6398-47A7-B36F-722BB780D147",
+        "maximum_estimated_sales": "330 million",
+        "minimum_estimated_sales": "250 million",
+        "nationality": "English",
+        "number_of_books": "33",
+        "original_language": "English",
+        "position": 23,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jeffrey_Archer_%40_Oslo_bokfestival_2012_4.jpg/309px-Jeffrey_Archer_%40_Oslo_bokfestival_2012_4.jpg",
+            "width": 309
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Jeffrey_Archer"
+    },
+    {
+        "author": "Louis L'Amour",
+        "canonical": "Louis_L'Amour",
+        "description": "Louis Dearborn L'Amour was an American novelist and short-story writer. His books consisted primarily of Western novels ; however, he also wrote historical fiction, science fiction, non-fiction (Frontier), as well as poetry and short-story collections. Many of his stories were made into films.",
+        "genre_or_major_works": "Western",
+        "id": "F6B817E5-5409-4C30-A396-E3796BFC5D3D",
+        "maximum_estimated_sales": "330 million",
+        "minimum_estimated_sales": "230 million",
+        "nationality": "American",
+        "number_of_books": "101",
+        "original_language": "English",
+        "position": 24,
+        "thumbnail": {
+            "height": 300,
+            "source": "https://upload.wikimedia.org/wikipedia/en/1/1e/Louis_L%27Amour.jpg",
+            "width": 300
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Louis_L'Amour"
+    },
+    {
+        "author": "Jirō Akagawa",
+        "canonical": "Jirō_Akagawa",
+        "description": "Jirō Akagawa  is a Japanese novelist born in Fukuoka, Fukuoka Prefecture, Japan.",
+        "genre_or_major_works": "Mystery",
+        "id": "ED2B6074-4537-4546-B876-10A14C102B1B",
+        "maximum_estimated_sales": "330 million",
+        "minimum_estimated_sales": "300 million",
+        "nationality": "Japanese",
+        "number_of_books": "500+",
+        "original_language": "Japanese",
+        "position": 25,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Jir%C5%8D_Akagawa"
+    },
+    {
+        "author": "René Goscinny",
+        "canonical": "René_Goscinny",
+        "description": "René Goscinny was a French comic editor and writer of Polish-Jewish descent, who created the Astérix comic book series with illustrator Albert Uderzo. He also worked on the comic series Lucky Luke with Morris and Iznogoud with Jean Tabary. He also wrote a series of children's books known as \"Le Petit Nicolas\".",
+        "genre_or_major_works": "Franco-Belgian comics, Asterix, Lucky Luke, Iznogoud",
+        "id": "56A499D3-64D8-4340-BD2B-8B8DEDBEC304",
+        "maximum_estimated_sales": "325 million",
+        "minimum_estimated_sales": "",
+        "nationality": "French",
+        "number_of_books": "108",
+        "original_language": "French",
+        "position": 26,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ren%C3%A9_Goscinny.jpg/203px-Ren%C3%A9_Goscinny.jpg",
+            "width": 203
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Ren%C3%A9_Goscinny"
+    },
+    {
+        "author": "Erle Stanley Gardner",
+        "canonical": "Erle_Stanley_Gardner",
+        "description": "Erle Stanley Gardner was an American lawyer and author. He is best known for the Perry Mason series of detective stories, but he wrote numerous other novels and shorter pieces and also a series of nonfiction books, mostly narrations of his travels through Baja California and other regions in Mexico.",
+        "genre_or_major_works": "Mystery, Perry Mason",
+        "id": "08239A4C-C85D-47AC-AD72-EFC6928D984D",
+        "maximum_estimated_sales": "325 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "140",
+        "original_language": "English",
+        "position": 27,
+        "thumbnail": {
+            "height": 300,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Erle-Stanley-Gardner-1966.jpg/320px-Erle-Stanley-Gardner-1966.jpg",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Erle_Stanley_Gardner"
+    },
+    {
+        "author": "Edgar Wallace",
+        "canonical": "Edgar_Wallace",
+        "description": "Richard Horatio Edgar Wallace was an English writer.",
+        "genre_or_major_works": "Detective",
+        "id": "8DF6C025-C6EE-4452-ACA1-7D5CD42059BE",
+        "maximum_estimated_sales": "300 million",
+        "minimum_estimated_sales": "",
+        "nationality": "English",
+        "number_of_books": "175",
+        "original_language": "English",
+        "position": 28,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Bundesarchiv_Bild_102-13109%2C_Edgar_Wallace.jpg/208px-Bundesarchiv_Bild_102-13109%2C_Edgar_Wallace.jpg",
+            "width": 208
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Edgar_Wallace"
+    },
+    {
+        "author": "Jin Yong",
+        "canonical": "Jin_Yong",
+        "description": "Louis Cha Leung-yung, better known by his pen name Jin Yong, was a Chinese wuxia novelist and essayist who co-founded the Hong Kong daily newspaper Ming Pao in 1959 and served as its first editor-in-chief. He was Hong Kong's most famous writer.",
+        "genre_or_major_works": "Wuxia",
+        "id": "E4CD7ECD-2509-46FC-A4B0-3B34C0511EE6",
+        "maximum_estimated_sales": "300 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "Chinese",
+        "number_of_books": "15",
+        "original_language": "Chinese",
+        "position": 29,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Jin_Yong%2C_July_2007.jpg/199px-Jin_Yong%2C_July_2007.jpg",
+            "width": 199
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Jin_Yong"
+    },
+    {
+        "author": "Janet Dailey",
+        "canonical": "Janet_Dailey",
+        "description": "Janet Anne Haradon Dailey was an American author of numerous romance novels as Janet Dailey. Her novels have been translated into nineteen languages and have sold more than 300 million copies worldwide. Dailey was both an author and entrepreneur.",
+        "genre_or_major_works": "Romance",
+        "id": "6709FB7B-6A9A-4475-B510-16D636B0FFB0",
+        "maximum_estimated_sales": "300 million",
+        "minimum_estimated_sales": "300 million",
+        "nationality": "American",
+        "number_of_books": "93",
+        "original_language": "English",
+        "position": 30,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Janet_Dailey"
+    },
+    {
+        "author": "Robert Ludlum",
+        "canonical": "Robert_Ludlum",
+        "description": "Robert Ludlum was an American author of 27 thriller novels, best known as the creator of Jason Bourne from the original The Bourne Trilogy series. The number of copies of his books in print is estimated between 300 million and 500 million. They have been published in 33 languages and 40 countries. Ludlum also published books under the pseudonyms Jonathan Ryder and Michael Shepherd.",
+        "genre_or_major_works": "Espionage, Jason Bourne",
+        "id": "25EC9106-AB0F-4BD2-88CB-C8B14557CB2B",
+        "maximum_estimated_sales": "290 million",
+        "minimum_estimated_sales": "110 million",
+        "nationality": "American",
+        "number_of_books": "40",
+        "original_language": "English",
+        "position": 31,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Robert_Ludlum_%281927-2001%29.jpg/213px-Robert_Ludlum_%281927-2001%29.jpg",
+            "width": 213
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Robert_Ludlum"
+    },
+    {
+        "author": "Akira Toriyama",
+        "canonical": "Akira_Toriyama",
+        "description": "Akira Toriyama  is a Japanese manga artist and character designer. He first achieved mainstream recognition for his highly successful manga series Dr. Slump, before going on to create Dragon Ball—his best-known work—and acting as a character designer for several popular video games such as the Dragon Quest series, Chrono Trigger and Blue Dragon. Toriyama is regarded as one of the artists that changed the history of manga, as his works are highly influential and popular, particularly Dragon Ball, which many manga artists cite as a source of inspiration.",
+        "genre_or_major_works": "Manga, Dr. Slump, Dragon Ball, Dragon Ball Super",
+        "id": "990C632F-3E87-42BD-A297-815E584C4F13",
+        "maximum_estimated_sales": "287 million[e]",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "66",
+        "original_language": "Japanese",
+        "position": 32,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Akira_Toriyama.jpg/200px-Akira_Toriyama.jpg",
+            "width": 200
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Akira_Toriyama"
+    },
+    {
+        "author": "Osamu Tezuka",
+        "canonical": "Osamu_Tezuka",
+        "description": "Osamu Tezuka  was a Japanese manga artist, cartoonist, animator, and film producer. Born in Osaka Prefecture, his prolific output, pioneering techniques, and innovative redefinitions of genres earned him such titles as \"the father of manga\", \"the godfather of manga\" and \"the god of manga\". Additionally, he is often considered the Japanese equivalent to Walt Disney, who served as a major inspiration during Tezuka's formative years. Though this phrase praises the quality of his early manga works for children and animations, it also blurs the significant influence of his later, more literary, gekiga works.",
+        "genre_or_major_works": "Manga, Astro Boy, Black Jack, Buddha",
+        "id": "C7C313A7-B276-474D-9D1F-B42666342B80",
+        "maximum_estimated_sales": "276 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "62",
+        "original_language": "Japanese",
+        "position": 33,
+        "thumbnail": {
+            "height": 273,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Osamu_Tezuka_1951_Scan10008-2.JPG/320px-Osamu_Tezuka_1951_Scan10008-2.JPG",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Osamu_Tezuka"
+    },
+    {
+        "author": "James Patterson",
+        "canonical": "James_Patterson",
+        "description": "James Brendan Patterson is an American author and philanthropist. Among his works are the Alex Cross, Michael Bennett, Women's Murder Club, Maximum Ride, Daniel X, NYPD Red, Witch and Wizard, and Private series, as well as many stand-alone thrillers, non-fiction and romance novels. His books have sold more than 300 million copies and he was the first person to sell 1 million e-books. In 2016, Patterson topped Forbes's list of highest-paid authors for the third consecutive year, with an income of $95 million. His total income over a decade is estimated at $700 million.",
+        "genre_or_major_works": "Thriller, Alex Cross",
+        "id": "F8D4EFD6-BD65-4EB5-85EB-8E4ADF1A05E1",
+        "maximum_estimated_sales": "275 million",
+        "minimum_estimated_sales": "150 million",
+        "nationality": "American",
+        "number_of_books": "98",
+        "original_language": "English",
+        "position": 34,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/James_Patterson.jpg/212px-James_Patterson.jpg",
+            "width": 212
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/James_Patterson"
+    },
+    {
+        "author": "Frédéric Dard",
+        "canonical": "Frédéric_Dard",
+        "description": "Frédéric Dard was one of the best known and loved French crime writers of the 20th century. Astonishingly prolific, he wrote more than three hundred novels, plays and screenplays, under his own name and a variety of pseudonyms which makes it very difficult to determine his exact output. He has earned his iconic status in France due to the wildly popular San-Antonio book series.",
+        "genre_or_major_works": "Detective, San Antonio",
+        "id": "33EBA7C1-1DCC-442A-AFAF-6BBF04E21598",
+        "maximum_estimated_sales": "270 million",
+        "minimum_estimated_sales": "200 million",
+        "nationality": "Swiss",
+        "number_of_books": "300",
+        "original_language": "French",
+        "position": 35,
+        "thumbnail": {
+            "height": 300,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fr%C3%A9d%C3%A9ric_Dard_%281992%29_by_Erling_Mandelmann.jpg",
+            "width": 200
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Dard"
+    },
+    {
+        "author": "Stan and Jan Berenstain",
+        "canonical": "Stan_and_Jan_Berenstain",
+        "description": "Stanley Melvin Berenstain and Janice Marian Berenstain were American writers and illustrators best known for creating the children's book series The Berenstain Bears.",
+        "genre_or_major_works": "Berenstain Bears",
+        "id": "C211ADF9-B8E2-4544-A259-1B99625AF483",
+        "maximum_estimated_sales": "260 million",
+        "minimum_estimated_sales": "200 million",
+        "nationality": "American",
+        "number_of_books": "300+",
+        "original_language": "English",
+        "position": 36,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Stan_and_Jan_Berenstain.jpg/230px-Stan_and_Jan_Berenstain.jpg",
+            "width": 230
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Stan_and_Jan_Berenstain"
+    },
+    {
+        "author": "Roald Dahl",
+        "canonical": "Roald_Dahl",
+        "description": "Roald Dahl was a British novelist, short story writer, poet, screenwriter, and wartime fighter pilot. His books have sold more than 250 million copies worldwide.",
+        "genre_or_major_works": "Children's literature",
+        "id": "18E7D3A8-8507-4EC8-8A5D-AE45616CF419",
+        "maximum_estimated_sales": "250 million",
+        "minimum_estimated_sales": "200 million",
+        "nationality": "British",
+        "number_of_books": "50",
+        "original_language": "English",
+        "position": 37,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Roald_Dahl.jpg/240px-Roald_Dahl.jpg",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Roald_Dahl"
+    },
+    {
+        "author": "John Grisham",
+        "canonical": "John_Grisham",
+        "description": "John Ray Grisham Jr. is an American novelist, attorney, politician, and activist, best known for his popular legal thrillers. His books have been translated into 42 languages and published worldwide.",
+        "genre_or_major_works": "Legal thriller",
+        "id": "DA2244CD-E273-4B93-84AC-8BE9C7E97BF3",
+        "maximum_estimated_sales": "250 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "22",
+        "original_language": "English",
+        "position": 38,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/John_Grisham_2009.jpg",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/John_Grisham"
+    },
+    {
+        "author": "Zane Grey",
+        "canonical": "Zane_Grey",
+        "description": "Pearl Zane Grey was an American author and dentist best known for his popular adventure novels and stories associated with the Western genre in literature and the arts; he idealized the American frontier. Riders of the Purple Sage (1912) was his best-selling book.",
+        "genre_or_major_works": "Western",
+        "id": "E12BD29E-7E21-422C-A35C-5EF260DCC1A4",
+        "maximum_estimated_sales": "250 million",
+        "minimum_estimated_sales": "",
+        "nationality": "American",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 39,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Zane_Grey.jpg/237px-Zane_Grey.jpg",
+            "width": 237
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Zane_Grey"
+    },
+    {
+        "author": "Irving Wallace",
+        "canonical": "Irving_Wallace",
+        "description": "Irving Wallace was an American best-selling author and screenwriter. He was known for his heavily researched novels, many with a sexual theme.",
+        "genre_or_major_works": "Suspense",
+        "id": "B49FB9DD-1EB7-41ED-BD6F-BB9B9606CD2D",
+        "maximum_estimated_sales": "250 million",
+        "minimum_estimated_sales": "",
+        "nationality": "American",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 40,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Irving_Wallace"
+    },
+    {
+        "author": "J. R. R. Tolkien",
+        "canonical": "J._R._R._Tolkien",
+        "description": "John Ronald Reuel Tolkien was an English writer, poet, philologist, and academic, who authored the classic high fantasy works The Hobbit, The Lord of the Rings, and The Silmarillion.",
+        "genre_or_major_works": "The Lord of the Rings, The Hobbit, classical fantasy",
+        "id": "19AF3C92-C128-4895-9A62-7F38599406DF",
+        "maximum_estimated_sales": "250 million",
+        "minimum_estimated_sales": "200 million",
+        "nationality": "English",
+        "number_of_books": "36",
+        "original_language": "English",
+        "position": 41,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tolkien_1916.jpg/221px-Tolkien_1916.jpg",
+            "width": 221
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/J._R._R._Tolkien"
+    },
+    {
+        "author": "Masashi Kishimoto",
+        "canonical": "Masashi_Kishimoto",
+        "description": "Masashi Kishimoto  is a Japanese manga artist. His best known work, Naruto, was in serialization from 1999 to 2014 and has sold over 250 million copies worldwide in 46 countries as of May 2019. The series has been adapted into three anime and multiple films, video games, and related media. Besides the Naruto manga, Kishimoto also personally supervised the two canonical anime films, The Last: Naruto the Movie and Boruto: Naruto the Movie, and has written several one-shot stories. In 2019, Kishimoto started writing the manga Samurai 8: The Tale of Hachimaru.",
+        "genre_or_major_works": "Manga, Naruto",
+        "id": "1157F055-3FB0-4F40-8304-56ECC63AD4FD",
+        "maximum_estimated_sales": "235 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "72",
+        "original_language": "Japanese",
+        "position": 42,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Masashi_Kishimoto"
+    },
+    {
+        "author": "Karl May",
+        "canonical": "Karl_May",
+        "description": "Karl Friedrich May was a German writer best known for his adventure novels set in the American Old West. His main protagonists are Winnetou and Old Shatterhand. May set similar books in the Orient and Middle East, Latin America and Germany. May also wrote poetry, a play, and composed music; he was a proficient player of several musical instruments. Many of his works were adapted for film, stage, audio dramas and comics. Later in his career, May turned to philosophical and spiritual genres. He is one of the best-selling German writers of all time, with about 200 million copies worldwide.",
+        "genre_or_major_works": "Western, adventure",
+        "id": "9A3A13E9-4B4D-422B-8351-CE0D916B07E2",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "German",
+        "number_of_books": "80",
+        "original_language": "German",
+        "position": 43,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Karl_May_edit.jpg/206px-Karl_May_edit.jpg",
+            "width": 206
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Karl_May"
+    },
+    {
+        "author": "Carter Brown",
+        "canonical": "Carter_Brown",
+        "description": "Carter Brown was the literary pseudonym of Alan Geoffrey Yates, an English-born Australian writer of detective fiction.",
+        "genre_or_major_works": "Detective",
+        "id": "ECF1DE39-B70F-4A89-A74D-00DA3A842ED4",
+        "maximum_estimated_sales": "120 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "Australian",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 44,
+        "thumbnail": {
+            "height": 282,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/4/43/Carterbrown.jpg",
+            "width": 257
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Carter_Brown"
+    },
+    {
+        "author": "Mickey Spillane",
+        "canonical": "Mickey_Spillane",
+        "description": "Frank Morrison Spillane, better known as Mickey Spillane, was an American crime novelist, whose stories often feature his signature detective character, Mike Hammer. More than 225 million copies of his books have sold internationally. Spillane was also an occasional actor, once even playing Hammer himself.",
+        "genre_or_major_works": "Detective, Mike Hammer",
+        "id": "DCFECDE9-4BCE-473B-B9BD-94B7983C13C5",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 45,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mickey_Spillane_Columbo_1974.JPG/240px-Mickey_Spillane_Columbo_1974.JPG",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Mickey_Spillane"
+    },
+    {
+        "author": "C. S. Lewis",
+        "canonical": "C._S._Lewis",
+        "description": "Clive Staples Lewis was a British writer and lay theologian. He held academic positions in English literature at both Oxford University and Cambridge University. He is best known for his works of fiction, especially The Screwtape Letters, The Chronicles of Narnia, and The Space Trilogy, and for his non-fiction Christian apologetics, such as Mere Christianity, Miracles, and The Problem of Pain.",
+        "genre_or_major_works": "The Chronicles of Narnia, fantasy, popular theology",
+        "id": "A3922932-3953-4A76-A4CB-A6C768CB79A6",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "British",
+        "number_of_books": "38",
+        "original_language": "English",
+        "position": 46,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/C.s.lewis3.JPG/221px-C.s.lewis3.JPG",
+            "width": 221
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/C._S._Lewis"
+    },
+    {
+        "author": "Kyotaro Nishimura",
+        "canonical": "Kyotaro_Nishimura",
+        "description": "Kyotaro Nishimura  is a Japanese novelist of Police procedural. Nishimura is best known for his \"train series\" mysteries, most of which feature his characters, police detectives Shozo Totsugawa, Sadao Kamei and Tokitaka Honda. He won the Mystery Writers of Japan Award in 1981 for The Terminal Murder Case.",
+        "genre_or_major_works": "Mystery",
+        "id": "3525FE55-C519-497F-A846-9E97704DBE5D",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "400+",
+        "original_language": "Japanese",
+        "position": 47,
+        "thumbnail": {
+            "height": 240,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nishimura_Kyotaro_Museum-P1010867.JPG/320px-Nishimura_Kyotaro_Museum-P1010867.JPG",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Kyotaro_Nishimura"
+    },
+    {
+        "author": "Mitsuru Adachi",
+        "canonical": "Mitsuru_Adachi",
+        "description": "Mitsuru Adachi  is a Japanese manga artist. After graduating from Gunma Prefectural Maebashi Commercial High School in 1969, Adachi worked as an assistant for Isami Ishii. He made his manga debut in 1970 with Kieta Bakuon, based on a manga originally created by Satoru Ozawa. Kieta was published in Deluxe Shōnen Sunday.",
+        "genre_or_major_works": "Manga, Touch, H2, Slow Step, Miyuki,Cross Game",
+        "id": "668C291C-5500-41EE-BA34-4910263B5CF0",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "",
+        "original_language": "Japanese",
+        "position": 48,
+        "thumbnail": {
+            "height": 284,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Anime_eye.svg/320px-Anime_eye.svg.png",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Mitsuru_Adachi"
+    },
+    {
+        "author": "Rumiko Takahashi",
+        "canonical": "Rumiko_Takahashi",
+        "description": "Rumiko Takahashi  is a Japanese manga artist. With a career of several commercially successful works, beginning with Urusei Yatsura in 1978, Takahashi is one of Japan's most affluent manga artists. Her works are popular worldwide, where they have been translated into a variety of languages, with over 200 million copies in circulation. She has won the Shogakukan Manga Award twice, once in 1980 for Urusei Yatsura and again in 2001 for Inuyasha, and the Seiun Award twice, once in 1987 for Urusei Yatsura and again in 1989 for Mermaid Saga. She also received the Grand Prix de la ville d'Angoulême in 2019, becoming the second woman and second Japanese to win the prize.",
+        "genre_or_major_works": "Manga Urusei Yatsura, Ranma ½, Inuyasha, Maison Ikkoku, Rin-ne",
+        "id": "57001086-139B-4EB4-B2AB-DE460E75297F",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "",
+        "original_language": "Japanese",
+        "position": 49,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Rumiko_Takahashi"
+    },
+    {
+        "author": "Gosho Aoyama",
+        "canonical": "Gosho_Aoyama",
+        "description": "Gosho Aoyama  is a Japanese manga artist best known as the creator of the manga series Detective Conan. As of 2017, his various manga series have a combined 200 million copies in print worldwide.",
+        "genre_or_major_works": "Manga, Detective Conan (Case Closed), Yaiba, Magic Kaito",
+        "id": "9414F6D0-BA7B-49FB-9407-1F72EAEDB4DF",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "",
+        "original_language": "Japanese",
+        "position": 50,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gosho_Aoyama.jpg/240px-Gosho_Aoyama.jpg",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Gosho_Aoyama"
+    },
+    {
+        "author": "Dan Brown",
+        "canonical": "Dan_Brown",
+        "description": "Daniel Gerhard Brown is an American author best known for his thriller novels, including the Robert Langdon novels Angels & Demons (2000), The Da Vinci Code (2003), The Lost Symbol (2009), Inferno (2013) and Origin (2017). His novels are treasure hunts that usually take place over a period of 24 hours. They feature recurring themes of cryptography, art, and conspiracy theories. His books have been translated into 57 languages and, as of 2012, have sold over 200 million copies. Three of them, Angels & Demons, The Da Vinci Code, and Inferno, have been adapted into films.",
+        "genre_or_major_works": "Thriller, Robert Langdon",
+        "id": "CE5E6D25-0788-47E2-8DAD-D03D8F0CE4C2",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "200 million",
+        "nationality": "American",
+        "number_of_books": "7",
+        "original_language": "English",
+        "position": 51,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Dan_Brown_bookjacket_cropped.jpg/229px-Dan_Brown_bookjacket_cropped.jpg",
+            "width": 229
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Dan_Brown"
+    },
+    {
+        "author": "Ann M. Martin",
+        "canonical": "Ann_M._Martin",
+        "description": "Ann Matthews Martin is an American children's fiction writer, known best for The Baby-Sitters Club series.",
+        "genre_or_major_works": "The Baby-sitters Club",
+        "id": "6DD87D18-1925-4573-9BEF-87510A2A5E31",
+        "maximum_estimated_sales": "180 million",
+        "minimum_estimated_sales": "172 million",
+        "nationality": "American",
+        "number_of_books": "335",
+        "original_language": "English",
+        "position": 52,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Ann_M._Martin"
+    },
+    {
+        "author": "Ryōtarō Shiba",
+        "canonical": "Ryōtarō_Shiba",
+        "description": "Ryōtarō Shiba , born Teiichi Fukuda , was a Japanese author best known for his novels about historical events in Japan and on the Northeast Asian sub-continent, as well as his historical and cultural essays pertaining to Japan and its relationship to the rest of the world.",
+        "genre_or_major_works": "Historical",
+        "id": "A2FE4BC6-5F5A-4CBD-A6B8-026F32925BCE",
+        "maximum_estimated_sales": "180 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "350",
+        "original_language": "Japanese",
+        "position": 53,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Ry%C5%8Dtar%C5%8D_Shiba"
+    },
+    {
+        "author": "Arthur Hailey",
+        "canonical": "Arthur_Hailey",
+        "description": "Arthur Hailey was a British-Canadian novelist whose plot-driven storylines were set against the backdrops of various industries. His meticulously researched books, which include such best sellers as Hotel (1965), Airport (1968), Wheels (1971), The Moneychangers (1975), and Overload (1979), have sold 170 million copies in 38 languages.",
+        "genre_or_major_works": "Thriller",
+        "id": "5BC5A0F5-519A-4A9F-966A-46A1B284F1AE",
+        "maximum_estimated_sales": "170 million",
+        "minimum_estimated_sales": "150 million",
+        "nationality": "British/Canadian",
+        "number_of_books": "11",
+        "original_language": "English",
+        "position": 54,
+        "thumbnail": {
+            "height": 300,
+            "source": "https://upload.wikimedia.org/wikipedia/en/a/a7/Arthur_Hailey.jpg",
+            "width": 300
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Arthur_Hailey"
+    },
+    {
+        "author": "Gérard de Villiers",
+        "canonical": "Gérard_de_Villiers",
+        "description": "Gérard de Villiers was a French writer, journalist and publisher whose SAS series of spy novels have been major bestsellers. According to the New York Times, \"His works have been translated and are especially popular in Germany, Russia, Turkey, and Japan. The SAS series has sold a reported 120 million copies worldwide, which would make it one of the top-selling series in history, on a par with Ian Fleming's James Bond books. SAS may be the longest-running fiction series ever written by a single author.\"",
+        "genre_or_major_works": "Detectives, SAS",
+        "id": "EA6E9768-FA46-4E23-A960-AC61C36AC8B7",
+        "maximum_estimated_sales": "150 million",
+        "minimum_estimated_sales": "",
+        "nationality": "French",
+        "number_of_books": "170",
+        "original_language": "French",
+        "position": 55,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/G%C3%A9rard_de_Villiers"
+    },
+    {
+        "author": "Beatrix Potter",
+        "canonical": "Beatrix_Potter",
+        "description": "Beatrix Potter was an English writer, illustrator, natural scientist, and conservationist best known for her children's books featuring animals, such as those in The Tale of Peter Rabbit.",
+        "genre_or_major_works": "Peter Rabbit",
+        "id": "CD233C6D-D0F9-4EAC-A015-DAE9B0CD5918",
+        "maximum_estimated_sales": "150 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "English",
+        "number_of_books": "23",
+        "original_language": "English",
+        "position": 56,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Beatrix_Potter_by_King_cropped.jpg/156px-Beatrix_Potter_by_King_cropped.jpg",
+            "width": 156
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Beatrix_Potter"
+    },
+    {
+        "author": "Michael Crichton",
+        "canonical": "Michael_Crichton",
+        "description": "John Michael Crichton was an American author, screenwriter, and film director and producer. His books have sold over 200 million copies worldwide, and over a dozen have been adapted into films.\nHis literary works are usually within the science fiction, techno-thriller, and medical fiction genres, and heavily feature technology. His novels often explore technology and failures of human interaction with it, especially resulting in catastrophes with biotechnology. Many of his novels have medical or scientific underpinnings, reflecting his medical training and scientific background. He wrote, among other works, The Andromeda Strain (1969), The Great Train Robbery (1975), Congo (1980), Sphere (1987), Jurassic Park (1990), Rising Sun (1992), Disclosure (1994), The Lost World (1995), Airframe (1996), Timeline (1999), Prey (2002), State of Fear (2004), and Next (2006). Films he wrote and directed included Westworld (1973), Coma (1978), The Great Train Robbery (1979), Looker (1981), and Runaway (1984).",
+        "genre_or_major_works": "Techno thriller",
+        "id": "AE69A296-8AE8-447B-9912-7E29610FEADB",
+        "maximum_estimated_sales": "150 million",
+        "minimum_estimated_sales": "150 million",
+        "nationality": "American",
+        "number_of_books": "25",
+        "original_language": "English",
+        "position": 57,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/MichaelCrichton_2.jpg/244px-MichaelCrichton_2.jpg",
+            "width": 244
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Michael_Crichton"
+    },
+    {
+        "author": "Richard Scarry",
+        "canonical": "Richard_Scarry",
+        "description": "Richard McClure Scarry was an American children's author and illustrator who published over 300 books with total sales of over 100 million worldwide.",
+        "genre_or_major_works": "Illustrated children's books",
+        "id": "B5265D7F-40DD-47C4-9345-2AA0FD128CD2",
+        "maximum_estimated_sales": "150 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "250",
+        "original_language": "English",
+        "position": 58,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Richard_Scarry"
+    },
+    {
+        "author": "Clive Cussler",
+        "canonical": "Clive_Cussler",
+        "description": "Clive Eric Cussler is an American adventure novelist and underwater explorer. His thriller novels, many featuring the character Dirk Pitt, have reached The New York Times fiction best-seller list more than 20 times. Cussler is the founder and chairman of the National Underwater and Marine Agency (NUMA), which has discovered more than 60 shipwreck sites and numerous other notable underwater wrecks. He is the sole author or lead author of more than 80 books.",
+        "genre_or_major_works": "Adventure, Dirk Pitt",
+        "id": "D0A62C9E-5E64-433D-A2CD-EEB0FF0BF9F2",
+        "maximum_estimated_sales": "150 million",
+        "minimum_estimated_sales": "40 million",
+        "nationality": "American",
+        "number_of_books": "37",
+        "original_language": "English",
+        "position": 59,
+        "thumbnail": {
+            "height": 238,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Clive_Cussler_%282011%29.jpg/320px-Clive_Cussler_%282011%29.jpg",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Clive_Cussler"
+    },
+    {
+        "author": "Alistair MacLean",
+        "canonical": "Alistair_MacLean",
+        "description": "Alistair Stuart MacLean was a Scottish novelist who wrote popular thrillers and adventure stories. His works include The Guns of Navarone, Ice Station Zebra and Where Eagles Dare – all three were made into popular films. He also wrote two novels under the pseudonym Ian Stuart. His books are estimated to have sold over 150 million copies, making him one of the best-selling fiction authors of all time.",
+        "genre_or_major_works": "Adventure, thriller, war stories",
+        "id": "5753CD9C-F11B-4158-BC85-1363D2B3CD48",
+        "maximum_estimated_sales": "200 million",
+        "minimum_estimated_sales": "150 million",
+        "nationality": "British",
+        "number_of_books": "32",
+        "original_language": "English",
+        "position": 60,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/en/9/92/AlistairMacLean.JPG",
+            "width": 311
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Alistair_MacLean"
+    },
+    {
+        "author": "Ken Follett",
+        "canonical": "Ken_Follett",
+        "description": "Kenneth Martin Follett, is a Welsh author of thrillers and historical novels who has sold more than 160 million copies of his works. Many of his books have achieved high ranking on best seller lists. For example, in the US, many reached the number 1 position on the New York Times Best Seller list, including Edge of Eternity, Fall of Giants, A Dangerous Fortune, The Key to Rebecca, Lie Down with Lions, Triple, Winter of the World, and World Without End.",
+        "genre_or_major_works": "Spy thriller, historical thriller",
+        "id": "12452089-FD0C-4CE6-BD9F-BD565F9BE7A4",
+        "maximum_estimated_sales": "150 million",
+        "minimum_estimated_sales": "90 million",
+        "nationality": "British",
+        "number_of_books": "30",
+        "original_language": "English",
+        "position": 61,
+        "thumbnail": {
+            "height": 260,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ken_Follett_official.jpg",
+            "width": 160
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Ken_Follett"
+    },
+    {
+        "author": "Astrid Lindgren",
+        "canonical": "Astrid_Lindgren",
+        "description": "Astrid Anna Emilia Lindgren née Ericsson; 14 November 1907 – 28 January 2002) was a Swedish writer of fiction and screenplays. She is best known for several children's book series, featuring Pippi Longstocking, Emil i Lönneberga, Karlsson-on-the-Roof, and the Six Bullerby Children, and for the children's fantasy novels Mio, My Son, Ronia the Robber's Daughter, and The Brothers Lionheart. Lindgren worked on the Children's Literature Editorial Board at the Rabén & Sjögren publishing house in Stockholm and wrote more than 30 books for children. In January 2017, she was calculated to be the world's 18th most translated author, and the fourth most translated children's writer after Enid Blyton, Hans Christian Andersen and the Brothers Grimm. Lindgren has so far sold roughly 165 million books worldwide. In 1994, she was awarded the Right Livelihood Award for \"her unique authorship dedicated to the rights of children and respect for their individuality.\"",
+        "genre_or_major_works": "Children's literature",
+        "id": "8B87C620-7B21-4BD9-A511-46B9D82592B2",
+        "maximum_estimated_sales": "165 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "Swedish",
+        "number_of_books": "100",
+        "original_language": "Swedish",
+        "position": 62,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Astrid_Lindgren_%28cropped%29.jpg/226px-Astrid_Lindgren_%28cropped%29.jpg",
+            "width": 226
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Astrid_Lindgren"
+    },
+    {
+        "author": "Debbie Macomber",
+        "canonical": "Debbie_Macomber",
+        "description": "Debbie Macomber is an American author of romance novels and contemporary women's fiction. Six of her novels have become made-for-TV movies and her Cedar Cove series of novel was adapted into the television series of the same name. Macomber was the inaugural winner of the fan-voted Quill Award for romance in 2005 and has been awarded both a RITA Award and a lifetime achievement award by the Romance Writers of America.",
+        "genre_or_major_works": "Romance",
+        "id": "1A00F102-D3E7-4B9F-91EE-EAF9D603A2A2",
+        "maximum_estimated_sales": "140 million",
+        "minimum_estimated_sales": "60 million",
+        "nationality": "American",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 63,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Debbie_Macomber.jpg/213px-Debbie_Macomber.jpg",
+            "width": 213
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Debbie_Macomber"
+    },
+    {
+        "author": "E. L. James",
+        "canonical": "E._L._James",
+        "description": "Erika Leonard, known by her pen name E. L. James, is a British author. She wrote the bestselling erotic romance trilogy Fifty Shades of Grey, Fifty Shades Darker, and Fifty Shades Freed, along with the companion novels Grey: Fifty Shades of Grey as Told by Christian and Darker: Fifty Shades Darker as Told by Christian; and under the name Snowqueen's Icedragon the Twilight fan fiction \"Master of the Universe\" that was the basis for the Fifty Shades trilogy. In 2019 her first book to not be a part of the Fifty Shades trilogy, The Mister, was published, to negative critical reception.",
+        "genre_or_major_works": "Fifty Shades of Grey",
+        "id": "38553339-176E-46C0-84B5-E7519EE6EB6E",
+        "maximum_estimated_sales": "125 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "British",
+        "number_of_books": "3",
+        "original_language": "English",
+        "position": 64,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/E._L._James_-_2019_%28cropped%29.jpg/235px-E._L._James_-_2019_%28cropped%29.jpg",
+            "width": 235
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/E._L._James"
+    },
+    {
+        "author": "Tite Kubo",
+        "canonical": "Tite_Kubo",
+        "description": "Tite Kubo  is a Japanese manga artist. He is best known for his manga series Bleach, which has sold over 120 million copies as of 2018.",
+        "genre_or_major_works": "Manga, Bleach",
+        "id": "384C2D9E-F522-41BF-8338-0D824AFC004F",
+        "maximum_estimated_sales": "120 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "74",
+        "original_language": "Japanese",
+        "position": 65,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Tite_Kubo"
+    },
+    {
+        "author": "Eiji Yoshikawa",
+        "canonical": "Eiji_Yoshikawa",
+        "description": "Eiji Yoshikawa  was a Japanese historical novelist. Among his best-known novels are revisions of older classics. He was mainly influenced by classics such as The Tale of the Heike, Tale of Genji, Water Margin, and Romance of the Three Kingdoms, many of which he retold in his own style. As an example, Yoshikawa took up Taiko's original manuscript in 15 volumes to retell it in a more accessible tone and reduce it to only two volumes. His other books also serve similar purposes and, although most of his novels are not original works, he created a huge amount of work and a renewed interest in the past. He was awarded the Cultural Order of Merit in 1960, the Order of the Sacred Treasure and the Mainichi Art Award just before his death from cancer in 1962. He is cited as one of the best historical novelists in Japan.",
+        "genre_or_major_works": "Musashi",
+        "id": "2755FE03-42A4-4776-831A-1D9A2543CF71",
+        "maximum_estimated_sales": "120 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "7",
+        "original_language": "Japanese",
+        "position": 66,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Eiji_Yoshikawa.jpg/228px-Eiji_Yoshikawa.jpg",
+            "width": 228
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Eiji_Yoshikawa"
+    },
+    {
+        "author": "Catherine Cookson",
+        "canonical": "Catherine_Cookson",
+        "description": "Dame Catherine Ann Cookson, DBE was a British author. She is in the top 20 of most widely read British novelists with sales topping 100 million, while retaining a relatively low profile in the world of celebrity writers. Her books were inspired by her deprived youth in South Tyneside, North East England, the setting for her novels. With more than 103 titles written in her own name or two other pen-names, she is one of the most prolific British novelists.",
+        "genre_or_major_works": "Romance",
+        "id": "D2EC96E4-9960-4B3F-8790-529FEFDBDAD9",
+        "maximum_estimated_sales": "120 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "British",
+        "number_of_books": "103",
+        "original_language": "English",
+        "position": 67,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Catherine_Cookson"
+    },
+    {
+        "author": "Stephenie Meyer",
+        "canonical": "Stephenie_Meyer",
+        "description": "Stephenie Meyer is an American novelist. She is best known for her vampire romance series Twilight, which has sold over 100 million copies, with translations into 37 different languages. Meyer was the bestselling author of 2008 and 2009 in the U.S., having sold over 29 million books in 2008, and 26.5 million in 2009. Meyer received the 2009 Children's Book of the Year award from the British Book Awards for her Twilight series finale Breaking Dawn.",
+        "genre_or_major_works": "The Twilight Saga, The Host, romance",
+        "id": "2634BB1C-4547-4E63-A9B8-18A86D0B7DB5",
+        "maximum_estimated_sales": "116 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "6",
+        "original_language": "English",
+        "position": 68,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Stephenie_Meyer_by_Gage_Skidmore.jpg/246px-Stephenie_Meyer_by_Gage_Skidmore.jpg",
+            "width": 246
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Stephenie_Meyer"
+    },
+    {
+        "author": "Norman Bridwell",
+        "canonical": "Norman_Bridwell",
+        "description": "Norman Ray Bridwell was an American author and cartoonist best known for the Clifford the Big Red Dog book series.",
+        "genre_or_major_works": "Clifford the Big Red Dog",
+        "id": "CB346122-3503-43E6-B075-8857D7BC1C52",
+        "maximum_estimated_sales": "110 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "80",
+        "original_language": "English",
+        "position": 69,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Norman_Bridwell%2C_Clifford_the_Big_Red_Dog%2C_2011.jpg/229px-Norman_Bridwell%2C_Clifford_the_Big_Red_Dog%2C_2011.jpg",
+            "width": 229
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Norman_Bridwell"
+    },
+    {
+        "author": "David Baldacci",
+        "canonical": "David_Baldacci",
+        "description": "David Baldacci is a bestselling American novelist.",
+        "genre_or_major_works": "Thriller",
+        "id": "D6DAE4A2-4049-47BB-8B54-DCA714813207",
+        "maximum_estimated_sales": "110 million",
+        "minimum_estimated_sales": "",
+        "nationality": "American",
+        "number_of_books": "25",
+        "original_language": "English",
+        "position": 70,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/David_Baldacci_-_2015_National_Book_Festival_%286%29.jpg/228px-David_Baldacci_-_2015_National_Book_Festival_%286%29.jpg",
+            "width": 228
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/David_Baldacci"
+    },
+    {
+        "author": "Nicholas Sparks",
+        "canonical": "Nicholas_Sparks",
+        "description": "Nicholas Charles Sparks is an American romance novelist and screenwriter. He has published twenty novels and two non-fiction books. Several of his novels have become international bestsellers, and eleven of his romantic-drama novels have been adapted to film all with multimillion-dollar box office grosses. His novels feature stories of tragic love with happy endings.",
+        "genre_or_major_works": "Romance",
+        "id": "E3439489-E92A-4592-B667-630BD8C6930F",
+        "maximum_estimated_sales": "105 million",
+        "minimum_estimated_sales": "90 million",
+        "nationality": "American",
+        "number_of_books": "22",
+        "original_language": "English",
+        "position": 71,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Nicholas-Sparks-Autograph-1-4-06.jpg/224px-Nicholas-Sparks-Autograph-1-4-06.jpg",
+            "width": 224
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Nicholas_Sparks"
+    },
+    {
+        "author": "Hirohiko Araki",
+        "canonical": "Hirohiko_Araki",
+        "description": "Hirohiko Araki  is a Japanese manga artist. He made his debut under the name Toshiyuki Araki  in 1980 with his one-shot Poker Under Arms, and began his professional career with the short series Cool Shock B.T., Baoh, and The Gorgeous Irene. Araki is best known for his long-running ongoing series JoJo's Bizarre Adventure, which was first published in Weekly Shōnen Jump in 1987 and has to date sold over 100 million copies in Japan alone. The series is known for frequent references to Western rock music, fashion, and Italy, all of which Araki is reportedly very fond of.",
+        "genre_or_major_works": "Manga, Jojo's Bizarre Adventure",
+        "id": "866B3594-27D3-421F-A9BC-2327D9AAB99D",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "",
+        "original_language": "Japanese",
+        "position": 72,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Hirohiko_Araki_2013_-_cropped.jpg/246px-Hirohiko_Araki_2013_-_cropped.jpg",
+            "width": 246
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Hirohiko_Araki"
+    },
+    {
+        "author": "Ed McBain",
+        "canonical": "Ed_McBain",
+        "description": "Ed McBain was an American author and screenwriter. Born Salvatore Albert Lombino, he legally adopted the name Evan Hunter in 1952. While successful and well known as Evan Hunter, he was even better known as Ed McBain, a name he used for most of his crime fiction, beginning in 1956. He also used the pen names John Abbott, Curt Cannon, Hunt Collins, Ezra Hannon, and Richard Marsten, amongst others. His 87th Precinct novels have become staples of the police procedural genre.",
+        "genre_or_major_works": "Detective (Ed McBain)",
+        "id": "B6D8BE9A-F120-47FC-A9F0-0C75798CCA28",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "94",
+        "original_language": "English",
+        "position": 73,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/EvanHunter.jpg/228px-EvanHunter.jpg",
+            "width": 228
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Ed_McBain"
+    },
+    {
+        "author": "Andrew Neiderman",
+        "canonical": "Andrew_Neiderman",
+        "description": "Andrew Neiderman is a best-selling American novelist. In 1987, he became the ghost writer for V. C. Andrews following her death in 1986. He formerly taught English at Fallsburg Jr./Sr. High School, in upstate New York.",
+        "genre_or_major_works": "V. C. Andrews, The Devil's Advocate",
+        "id": "FCBC7DD0-5470-4DC3-9231-395A990A51E2",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "60",
+        "original_language": "English",
+        "position": 74,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Andrew_Neiderman"
+    },
+    {
+        "author": "Roger Hargreaves",
+        "canonical": "Roger_Hargreaves",
+        "description": "Charles Roger Hargreaves was an English author and illustrator of children's books, best remembered for the Mr. Men and Little Miss series, intended for very young readers. The simple and humorous stories, with brightly coloured, boldly drawn illustrations, have been part of popular culture since 1971, with sales of over 85 million copies worldwide in 20 languages he hails from Cleckheaton West Yorkshire, specifically Gomersal where he lived in a street off Mill Lane now known as Summerdale.",
+        "genre_or_major_works": "Children's literature, Mr. Men",
+        "id": "3EF6D1EE-2278-4886-8BB8-28A137554905",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "British",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 75,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Roger_Hargreaves"
+    },
+    {
+        "author": "Anne Rice",
+        "canonical": "Anne_Rice",
+        "description": "Anne Rice is an American author of gothic fiction, Christian literature, and erotic literature.\nShe is perhaps best known for her series of novels, The Vampire Chronicles, revolving around the central character of Lestat. Books from The Vampire Chronicles were the subject of two film adaptations, Interview with the Vampire in 1994, and Queen of the Damned in 2002.",
+        "genre_or_major_works": "Gothic fiction, vampires, Interview with the Vampire (The Vampire Chronicles)",
+        "id": "D19C64A6-C57E-49C3-B20B-CC663818E47A",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "75 million",
+        "nationality": "American",
+        "number_of_books": "27",
+        "original_language": "English",
+        "position": 76,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Anne_Rice.jpg/213px-Anne_Rice.jpg",
+            "width": 213
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Anne_Rice"
+    },
+    {
+        "author": "Robin Cook (American novelist)",
+        "canonical": "Robin_Cook_(American_novelist)",
+        "description": "Robert Brian \"Robin\" Cook is an American physician and novelist who writes about medicine and topics affecting public health.",
+        "genre_or_major_works": "Medical thriller Coma",
+        "id": "7961E0FB-A67D-4158-9D71-13E5BF77A2CB",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "27",
+        "original_language": "English",
+        "position": 77,
+        "thumbnail": {
+            "height": 299,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Robin_Cook_in_Warsaw_Poland_2008.jpg/320px-Robin_Cook_in_Warsaw_Poland_2008.jpg",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Robin_Cook_(American_novelist)"
+    },
+    {
+        "author": "Wilbur Smith",
+        "canonical": "Wilbur_Smith",
+        "description": "Wilbur Addison Smith is a British novelist specialising in historical fiction about the international involvement in Southern Africa across four centuries, seen from the viewpoints of both black and white families.",
+        "genre_or_major_works": "African adventure",
+        "id": "21ED240B-6E6E-4182-B7F5-94340B3B94C3",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "80 million",
+        "nationality": "South African/British",
+        "number_of_books": "32",
+        "original_language": "English",
+        "position": 78,
+        "thumbnail": {
+            "height": 267,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wilbur_Smith.jpg/320px-Wilbur_Smith.jpg",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Wilbur_Smith"
+    },
+    {
+        "author": "Erskine Caldwell",
+        "canonical": "Erskine_Caldwell",
+        "description": "Erskine Preston Caldwell was an American novelist and short story writer. His writings about poverty, racism and social problems in his native Southern United States, in novels such as Tobacco Road (1932) and God's Little Acre (1933) won him critical acclaim, but his advocacy of eugenics and the sterilization of Georgia's poor whites became less popular following World War II.",
+        "genre_or_major_works": "Literature",
+        "id": "0896EC37-25D5-448A-BBC2-CB532FB76C63",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "80 million",
+        "nationality": "American",
+        "number_of_books": "25",
+        "original_language": "English",
+        "position": 79,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Erskine_Caldwell_1975.jpg/239px-Erskine_Caldwell_1975.jpg",
+            "width": 239
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Erskine_Caldwell"
+    },
+    {
+        "author": "Judith Krantz",
+        "canonical": "Judith_Krantz",
+        "description": "Judith Krantz was a magazine writer and fashion editor who turned to fiction as she approached the age of 50. Her first novel Scruples (1978) quickly became a New York Times best-seller and went on to be a worldwide publishing success, translated into 50 languages. Scruples, which describes the glamorous and affluent world of high fashion in Beverley Hills, California, helped define a new supercharged sub-genre of the romance novel - the bonkbuster or \"sex-and-shopping\" novel. She also fundamentally changed the publishing industry by becoming one of the first celebrity authors through her extensive touring and promotion - \"a superstar of fiction\". Her later books included Princess Daisy (1980), Till We Meet Again (1988), Dazzle (1990) and Spring Collection (1996). Her autobiography, Sex and Shopping: The Confessions of a Nice Jewish Girl, was published in 2000.",
+        "genre_or_major_works": "Romance",
+        "id": "13AF292A-0326-4CB3-897D-63F40D623C17",
+        "maximum_estimated_sales": "100 million ",
+        "minimum_estimated_sales": "80 million ",
+        "nationality": "American",
+        "number_of_books": "12",
+        "original_language": "English",
+        "position": 80,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Judith_Krantz"
+    },
+    {
+        "author": "Eleanor Hibbert",
+        "canonical": "Eleanor_Hibbert",
+        "description": "Eleanor Alice Hibbert was an English author who combined imagination with facts to bring history alive through novels of fiction and romance. She was a prolific writer who published several books a year in different literary genres, each genre under a different pen name: Jean Plaidy for fictionalized history of European royalty; Victoria Holt for gothic romances, and Philippa Carr for a multi-generational family saga. A literary split personality, she also wrote light romances, crime novels, murder mysteries and thrillers under the various pseudonyms including Eleanor Burford, Elbur Ford, Kathleen Kellow, Anna Percival, and Ellalice Tate.",
+        "genre_or_major_works": "Romance, historical, suspense",
+        "id": "30310CD5-BC7E-4891-9B7C-0D706DC34DC7",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "British",
+        "number_of_books": "200",
+        "original_language": "English",
+        "position": 81,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/en/7/75/Eleanor_Hibbert.jpg",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Eleanor_Hibbert"
+    },
+    {
+        "author": "Lewis Carroll",
+        "canonical": "Lewis_Carroll",
+        "description": "Charles Lutwidge Dodgson, better known by his pen name Lewis Carroll, was an English writer of world-famous children's fiction, notably Alice's Adventures in Wonderland and its sequel Through the Looking-Glass. He was noted for his facility at word play, logic, and fantasy. The poems Jabberwocky and The Hunting of the Snark are classified in the genre of literary nonsense. He was also a mathematician, photographer, and Anglican deacon.",
+        "genre_or_major_works": "Alice's Adventures in Wonderland, absurdist literature",
+        "id": "DF6C8B9D-5797-4133-A0B6-36F2E7D4DE16",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "British",
+        "number_of_books": "5",
+        "original_language": "English",
+        "position": 82,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/LewisCarrollSelfPhoto.jpg/226px-LewisCarrollSelfPhoto.jpg",
+            "width": 226
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Lewis_Carroll"
+    },
+    {
+        "author": "Denise Robins",
+        "canonical": "Denise_Robins",
+        "description": "Denise Robins was a prolific English romantic novelist and the first President of the Romantic Novelists' Association (1960–1966). She wrote under her first married name and under the pen-names: Denise Chesterton, Eve Vaill, 'Anne Llewellyn', Hervey Hamilton, Francesca Wright, Ashley French, Harriet Gray and Julia Kane, producing short stories, plays, and about 170 Gothic romance novels. In 1965, Robins published her autobiography, Stranger Than Fiction. At the time of her death in 1985, Robins's books had been translated into fifteen languages and had sold more than one hundred million copies. In 1984, they were borrowed more than one and a half million times from British libraries.",
+        "genre_or_major_works": "Romance",
+        "id": "9C783627-3F8B-4094-84DE-5E849C8EA889",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "British",
+        "number_of_books": "200",
+        "original_language": "English",
+        "position": 83,
+        "thumbnail": {
+            "height": 240,
+            "source": "https://upload.wikimedia.org/wikipedia/en/a/ae/Denise_Robins.jpg",
+            "width": 180
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Denise_Robins"
+    },
+    {
+        "author": "Cao Xueqin",
+        "canonical": "Cao_Xueqin",
+        "description": "Cáo Xuěqín ; was a Chinese writer during the Qing dynasty. He is best known as the author of Dream of the Red Chamber, one of the Four Great Classical Novels of Chinese literature. His given name was Cáo Zhān  (曹霑) and his courtesy name was Mèngruǎn.",
+        "genre_or_major_works": "Dream of the Red Chamber",
+        "id": "3850479F-11EF-4BFD-A561-BA1A6EB36CFE",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Chinese",
+        "number_of_books": "",
+        "original_language": "Chinese",
+        "position": 84,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Statue_of_Cao_Xueqin.JPG/240px-Statue_of_Cao_Xueqin.JPG",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Cao_Xueqin"
+    },
+    {
+        "author": "Ian Fleming",
+        "canonical": "Ian_Fleming",
+        "description": "Ian Lancaster Fleming was an English author, journalist and naval intelligence officer who is best known for his James Bond series of spy novels. Fleming came from a wealthy family connected to the merchant bank Robert Fleming & Co., and his father was the Member of Parliament for Henley from 1910 until his death on the Western Front in 1917. Educated at Eton, Sandhurst and, briefly, the universities of Munich and Geneva, Fleming moved through several jobs before he started writing.",
+        "genre_or_major_works": "James Bond",
+        "id": "34DE3D64-F83B-454E-944B-FA0E7009DBC4",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "British",
+        "number_of_books": "14",
+        "original_language": "English",
+        "position": 85,
+        "thumbnail": {
+            "height": 300,
+            "source": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Ian_Fleming.jpg/320px-Ian_Fleming.jpg",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Ian_Fleming"
+    },
+    {
+        "author": "Hermann Hesse",
+        "canonical": "Hermann_Hesse",
+        "description": "Hermann Karl Hesse was a German-born poet, novelist, and painter. His best-known works include Demian, Steppenwolf, Siddhartha, and The Glass Bead Game, each of which explores an individual's search for authenticity, self-knowledge and spirituality. In 1946, he received the Nobel Prize in Literature.",
+        "genre_or_major_works": "Steppenwolf, Siddhartha, The Glass Bead Game",
+        "id": "2F639750-A033-4B17-BBA7-5C423CC43BCB",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "German-Swiss",
+        "number_of_books": "45",
+        "original_language": "German",
+        "position": 86,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hermann_Hesse_2.jpg/268px-Hermann_Hesse_2.jpg",
+            "width": 268
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Hermann_Hesse"
+    },
+    {
+        "author": "Rex Stout",
+        "canonical": "Rex_Stout",
+        "description": "Rex Todhunter Stout was an American writer noted for his detective fiction. His best-known characters are the detective Nero Wolfe and his assistant Archie Goodwin, who were featured in 33 novels and 39 novellas between 1934 and 1975.",
+        "genre_or_major_works": "Nero Wolfe",
+        "id": "D4131C34-28FD-4C13-A00F-58F6C53B297B",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "50",
+        "original_language": "English",
+        "position": 87,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Stout-Our-Secret-Weapon.jpg/250px-Stout-Our-Secret-Weapon.jpg",
+            "width": 250
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Rex_Stout"
+    },
+    {
+        "author": "Anne Golon",
+        "canonical": "Anne_Golon",
+        "description": "Anne Golon was a French author, better known to English-speaking readers as Sergeanne Golon. She was most known for a series of novels about a heroine called Angelique.",
+        "genre_or_major_works": "Angélique",
+        "id": "2DB4EAED-5340-4CE5-8392-C3500B4239B7",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "French",
+        "number_of_books": "14",
+        "original_language": "French",
+        "position": 88,
+        "thumbnail": {
+            "height": 317,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Imaginales_2014_-_Anne_Golon.jpg/320px-Imaginales_2014_-_Anne_Golon.jpg",
+            "width": 320
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Anne_Golon"
+    },
+    {
+        "author": "Frank G. Slaughter",
+        "canonical": "Frank_G._Slaughter",
+        "description": "Frank Gill Slaughter, pen-name Frank G. Slaughter, pseudonym C.V. Terry, was an American novelist and physician whose books sold more than 60 million copies. His novels drew on his own experience as a doctor and his interest in history and the Bible. Through his novels, he often introduced readers to new findings in medical research and new medical technologies.",
+        "genre_or_major_works": "Medical",
+        "id": "B37614FC-7F32-43AB-9B88-29FB4D1A79DB",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "American",
+        "number_of_books": "62",
+        "original_language": "English",
+        "position": 89,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Frank_G_Slaughter_1926.jpg/237px-Frank_G_Slaughter_1926.jpg",
+            "width": 237
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Frank_G._Slaughter"
+    },
+    {
+        "author": "Edgar Rice Burroughs",
+        "canonical": "Edgar_Rice_Burroughs",
+        "description": "Edgar Rice Burroughs was an American fiction writer best known for his celebrated and prolific output in the adventure and science-fiction genres. Among the most notable of his creations are the jungle hero Tarzan, the heroic Mars adventurer John Carter, and the fictional landmass within Earth known as Pellucidar. Burroughs' California ranch is now the center of the Tarzana neighborhood in Los Angeles.",
+        "genre_or_major_works": "Tarzan, Barsoom and Pellucidar series, science fantasy",
+        "id": "99551E0F-B568-42D6-BE71-809502D5A42F",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 90,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/E-R-Burroughs.jpg/253px-E-R-Burroughs.jpg",
+            "width": 253
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Edgar_Rice_Burroughs"
+    },
+    {
+        "author": "John Creasey",
+        "canonical": "John_Creasey",
+        "description": "John Creasey MBE was an English crime and science fiction writer who wrote more than six hundred novels using twenty-eight different pseudonyms.",
+        "genre_or_major_works": "Crime thriller",
+        "id": "07B82682-2176-41A1-957A-81DB2A11E76A",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "British",
+        "number_of_books": "600",
+        "original_language": "English",
+        "position": 91,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/John_Creasey"
+    },
+    {
+        "author": "James A. Michener",
+        "canonical": "James_A._Michener",
+        "description": "James Albert Michener was an American author. He wrote more than 40 books, most of which were lengthy, fictional family sagas covering the lives of many generations in particular geographic locales and incorporating solid history. Michener had numerous bestsellers and works selected for Book of the Month Club, and was known for his meticulous research behind the books.",
+        "genre_or_major_works": "Historical",
+        "id": "0B28B724-BA36-4EB5-9AC2-48A599E06B65",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "American",
+        "number_of_books": "47",
+        "original_language": "English",
+        "position": 92,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/James_Albert_Michener_%C2%B7_DN-SC-92-05368.JPEG/240px-James_Albert_Michener_%C2%B7_DN-SC-92-05368.JPEG",
+            "width": 240
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/James_A._Michener"
+    },
+    {
+        "author": "Yasuo Uchida",
+        "canonical": "",
+        "description": "",
+        "genre_or_major_works": "Mystery",
+        "id": "510C043D-15AB-4D57-93C1-4814971F7A98",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "130+",
+        "original_language": "Japanese",
+        "position": 93,
+        "wikipedia": ""
+    },
+    {
+        "author": "Seiichi Morimura",
+        "canonical": "Seiichi_Morimura",
+        "description": "Seiichi Morimura  is a Japanese novelist and author, born in Kumagaya. He is best known for the controversial The Devil's Gluttony (悪魔の飽食) (1981), which revealed the atrocities committed by Unit 731 of the Imperial Japanese Army during the Sino-Japanese War (1937–1945).",
+        "genre_or_major_works": "Mystery",
+        "id": "DB5B591A-350A-4391-9F0A-6D51C1C4F848",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "Japanese",
+        "number_of_books": "350+",
+        "original_language": "Japanese",
+        "position": 94,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Seiichi_Morimura"
+    },
+    {
+        "author": "Mary Higgins Clark",
+        "canonical": "Mary_Higgins_Clark",
+        "description": "Mary Theresa Eleanor Higgins Clark was an American author of suspense novels. Each of her 51 books was a bestseller in the United States and various European countries, and all of her novels remained in print as of 2015, with her debut suspense novel, Where Are the Children?, in its seventy-fifth printing.",
+        "genre_or_major_works": "Thriller",
+        "id": "88BF32D7-4FA1-4083-A34A-334D132A8E5C",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "100 million",
+        "nationality": "American",
+        "number_of_books": "",
+        "original_language": "English",
+        "position": 95,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mary_Higgins_Clark_at_the_Mazza_Museum.jpg/256px-Mary_Higgins_Clark_at_the_Mazza_Museum.jpg",
+            "width": 256
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Mary_Higgins_Clark"
+    },
+    {
+        "author": "Penny Jordan",
+        "canonical": "Penny_Jordan",
+        "description": "Penelope Halsall was a best-selling and prolific English writer of over 200 romance novels. She started writing regency romances as Caroline Courtney, and wrote contemporary romances as Penny Jordan and historical romances as Annie Groves. She also wrote novels as Melinda Wright and Lydia Hitchcock. Her books have sold over 70 million copies worldwide and been translated into many languages.",
+        "genre_or_major_works": "Romance",
+        "id": "BC33560F-A3D4-4E86-905E-F7504E1A0C89",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "90 million",
+        "nationality": "British",
+        "number_of_books": "200+",
+        "original_language": "English",
+        "position": 96,
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Penny_Jordan"
+    },
+    {
+        "author": "Patricia Cornwell",
+        "canonical": "Patricia_Cornwell",
+        "description": "Patricia Cornwell is an American crime writer. She is known for her best-selling novels featuring medical examiner Kay Scarpetta, of which the first was inspired by a series of sensational murders in Richmond, Virginia, where most of the stories are set. The plots are notable for their emphasis on forensic science, which has influenced later TV treatments of police work. Cornwell has also initiated new research into the Jack the Ripper killings, incriminating the popular British artist Walter Sickert. Her books have sold more than 100 million copies.",
+        "genre_or_major_works": "Thriller",
+        "id": "61567BD1-2397-4A78-89F6-E5D5FFAC48D1",
+        "maximum_estimated_sales": "100 million",
+        "minimum_estimated_sales": "",
+        "nationality": "American",
+        "number_of_books": "34+",
+        "original_language": "English",
+        "position": 97,
+        "thumbnail": {
+            "height": 320,
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Patricia_Cornwell_in_2016.jpg/272px-Patricia_Cornwell_in_2016.jpg",
+            "width": 272
+        },
+        "wikipedia": "https://en.m.wikipedia.org/wiki/Patricia_Cornwell"
+    }
+]

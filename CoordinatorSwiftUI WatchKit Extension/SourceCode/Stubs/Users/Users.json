@@ -1,0 +1,20 @@
+[
+    {
+        "email": "bernd.robin@example.com",
+        "id": "EBC79466-F6F0-4C39-B654-1EE4FF39D3CF",
+        "imageURL": "6.jpg",
+        "name": "Bernd Robin"
+    },
+    {
+        "email": "suzy.allen@example.com",
+        "id": "9E39F84E-D2BA-4F5A-B290-857C92E8D284",
+        "imageURL": "60.jpg",
+        "name": "Suzy Allen"
+    },
+    {
+        "email": "alex.robinson@example.com",
+        "id": "EFB6D5C6-96F6-41CB-BF27-3A36C0DA7DB5",
+        "imageURL": "91.jpg",
+        "name": "Alex Robinson"
+    }
+]
