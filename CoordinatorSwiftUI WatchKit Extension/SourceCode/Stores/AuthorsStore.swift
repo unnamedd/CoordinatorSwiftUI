@@ -27,7 +27,7 @@ final class AuthorsStore: ObservableObject {
 #if DEBUG
 
 extension AuthorsStore {
-    static var makeDummyFulfilled: AuthorsStore {
+    static var makeDummyFilled: AuthorsStore {
         let authorsStore = AuthorsStore()
         let authors = Authors.makeDummy
         

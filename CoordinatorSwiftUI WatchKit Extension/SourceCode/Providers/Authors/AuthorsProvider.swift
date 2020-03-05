@@ -18,7 +18,7 @@ final class AuthorsProvider: AuthorsProviderProtocol {
     func listAuthors(completion: @escaping (AuthorsProviderResult) -> Void) {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            let authorsStore = AuthorsStore.makeDummyFulfilled
+            let authorsStore = AuthorsStore.makeDummyFilled
             completion(.success(authorsStore.authors))
         }
     }
@@ -26,7 +26,7 @@ final class AuthorsProvider: AuthorsProviderProtocol {
     func authorDetails(for identifier: String, completion: @escaping (AuthorProviderResult) -> Void) {
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            let authorsStore = AuthorsStore.makeDummyFulfilled
+            let authorsStore = AuthorsStore.makeDummyFilled
             
             guard let author = authorsStore.authors.first(where: { $0.id == identifier}) else {
                 completion(.failure(.notFound))

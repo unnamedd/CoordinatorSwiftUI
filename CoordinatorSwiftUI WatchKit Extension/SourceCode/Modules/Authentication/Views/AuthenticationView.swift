@@ -5,11 +5,29 @@ protocol AuthenticationViewDelegate: AnyObject {
 }
 
 struct AuthenticationView: View {
+    @State
+    private var emailValue = ""
+    
+    @State
+    private var passwordValue = ""
+    
+    @State
+    private var saveLogin = true
+    
     weak var delegate: AuthenticationViewDelegate? = nil
     
     var body: some View {
         VStack {
             Text("Authentication")
+            
+            TextField("Email", text: $emailValue)
+                .textContentType(.emailAddress)
+                .frame(height: 30)
+            
+            SecureField("Password", text: $passwordValue)
+                .textContentType(.password)
+            
+            Toggle("Save login", isOn: $saveLogin)
             
             Button(action: {
                 let user = Users.makeDummy[0]

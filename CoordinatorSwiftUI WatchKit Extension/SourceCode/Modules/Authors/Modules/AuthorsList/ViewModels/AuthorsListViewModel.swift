@@ -58,7 +58,7 @@ extension AuthorsListViewModel {
     static var makeSuccessDummy: AuthorsListViewModel {
         let viewModel = AuthorsListViewModel(
             provider: AuthorsProviderSuccessMock(),
-            store: AuthorsStore.makeDummyFulfilled
+            store: AuthorsStore.makeDummyFilled
         )
         
         viewModel.state = .initial

@@ -87,7 +87,7 @@ final class AuthorsListViewDelegateMock: AuthorsListViewDelegate {
     
     func authorsListView<Label>(_ view: AuthorsListView, navigationLinkForAuthor author: Author, viewBuilder: () -> Label) -> NavigationLink<Label, AnyView> where Label : View {
 
-        let authorsStore = AuthorsStore.makeDummyFulfilled
+        let authorsStore = AuthorsStore.makeDummyFilled
         
         let userProfileViewModel = AuthorProfileDetailViewModel(
             author: author,

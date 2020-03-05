@@ -35,7 +35,7 @@ struct AuthorRowView: View {
 
 struct AuthorRowView_Previews: PreviewProvider {
     static var previews: some View {
-        let authorsStore = AuthorsStore.makeDummyFulfilled
+        let authorsStore = AuthorsStore.makeDummyFilled
         let authors = authorsStore.authors
         
         return List(0..<6) { index in

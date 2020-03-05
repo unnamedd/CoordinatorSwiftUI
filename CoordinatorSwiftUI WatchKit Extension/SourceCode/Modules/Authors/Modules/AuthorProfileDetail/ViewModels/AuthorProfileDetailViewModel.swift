@@ -43,7 +43,7 @@ final class AuthorProfileDetailViewModel: ObservableObject {
 
 extension AuthorProfileDetailViewModel {
     static var makeDummy: AuthorProfileDetailViewModel {
-        let authorsStore = AuthorsStore.makeDummyFulfilled
+        let authorsStore = AuthorsStore.makeDummyFilled
         let author = authorsStore.authors[5]
         
         return AuthorProfileDetailViewModel(
