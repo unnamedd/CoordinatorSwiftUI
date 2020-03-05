@@ -20,7 +20,7 @@ struct AuthorProfileDetailView: View {
                         .padding(.bottom)
                 }
                 
-                Text("Qtd. books: ")
+                Text("Qty. books: ")
                     .bold()
                     .foregroundColor(Color.gray)
                     +
